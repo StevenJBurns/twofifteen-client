@@ -23,22 +23,39 @@
 }
 
 .App-title {
-  font-size: 1.5em;
+
 }
 
 .App-navbar {
   padding: 16px;
-  background-color: #1F45FC;
+  background-color: #2c3165;
 }
 
 .App-navbar ul {
   list-style: none
 }
 
-.App-navitem {
-  margin: 8px;
+.App-navbar li {
   color: #F0F0F0;
   display: inline-block
+}
+
+.App-navbar a {
+  margin: auto;
+  width: 96px;
+  color: #F0F0F0;
+  text-decoration: none;
+  display: inline-block
+}
+
+.App-navbar a:hover {
+  color: #F0F0F0;
+  background-color: #6b6e93;
+  text-decoration: none
+}
+
+.App-navbar a:visited {
+  color: #F0F0F0
 }
 
 main {
