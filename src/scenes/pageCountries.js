@@ -7,11 +7,11 @@ class SceneCountries extends Component {
     this.state = { countries : [] };
   }
 
-  componentDidMount() {
+  componentWillMount() {
     fetch('http://twofifteen-api.azurewebsites.net/country' , { mode : "cors" })
       .then(res => res.json())
       .then(json => this.setState({ countries : json }))
-      .then(() => console.log(this.state.countries))
+      .then( () => console.log(this.state.countries))
       .catch(error => console.log(error))
   }
 

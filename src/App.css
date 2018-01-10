@@ -32,11 +32,12 @@
 }
 
 .App-navbar ul {
-  list-style: none
+  list-style-type: none
 }
 
 .App-navbar li {
   color: #F0F0F0;
+  list-style-type: none;
   display: inline-block
 }
 
@@ -60,6 +61,10 @@
 
 main {
   flex: 1 0 auto;
+}
+
+main ul li {
+  list-style-type: none;
 }
 
 .App-footer {

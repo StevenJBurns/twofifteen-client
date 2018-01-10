@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import NavItem from "./navitem";
+// import NavItem from "./navitem";
 
 class NavBar extends Component {
   
   constructor(props) {
     super(props);
+    this.state = {};
   }
 
   render() {

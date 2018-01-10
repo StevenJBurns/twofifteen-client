@@ -4,6 +4,7 @@ class SceneGames extends Component {
   
   constructor(props) {
     super(props);
+    this.state = {};
   }
 
   render() {
