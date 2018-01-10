@@ -8,7 +8,7 @@ class NavItem extends Component {
   
   render() {
     return (
-      <li class="App-navitem">{ this.props.label }</li>
+      <li className="App-navitem">{ this.props.label }</li>
     );
   }
 }

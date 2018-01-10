@@ -10,9 +10,10 @@ class NavBar extends Component {
 
   render() {
     return (
-      <nav class="App-navbar">
+      <nav className="App-navbar">
         <ul>
           <li><Link to="/">Home</Link></li>
+          <li><Link to="/countries">Countries</Link></li>          
           <li><Link to="/ballparks">Ballparks</Link></li>
           <li><Link to="/teams">Teams</Link></li>
           <li><Link to="/players">Players</Link></li>

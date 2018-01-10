@@ -1,9 +1,15 @@
 import React, { Component } from 'react';
 
 class SceneBallparks extends Component {
-  
+
   constructor(props) {
     super(props);
+    this.data;
+    this.state;
+  }
+
+  componentDidMount() {
+
   }
 
   render() {
