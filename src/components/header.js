@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from '../logo.svg';
+import BaseballLogoSVG from '../baseball.svg';
 
 
 class Header extends Component {
@@ -12,7 +12,7 @@ class Header extends Component {
   render() {
     return (
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="TwoFifteen Baseball Database" />
+        <img src={ BaseballLogoSVG } className="App-logo" alt="TwoFifteen Baseball Database" />
         <h1 className="App-title">Welcome to TwoFifteen</h1>
       </header>
     );
