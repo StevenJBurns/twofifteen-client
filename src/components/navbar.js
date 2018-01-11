@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-// import NavItem from "./navitem";
 
 class NavBar extends Component {
   
@@ -14,7 +13,7 @@ class NavBar extends Component {
       <nav className="App-navbar">
         <ul>
           <li><Link to="/">Home</Link></li>
-          <li><Link to="/countries">Countries</Link></li>          
+          <li><Link to="/locations">Locations</Link></li>          
           <li><Link to="/ballparks">Ballparks</Link></li>
           <li><Link to="/teams">Teams</Link></li>
           <li><Link to="/players">Players</Link></li>

@@ -5,8 +5,8 @@ import Header from "./components/header";
 import NavBar from "./components/navbar";
 import Footer from './components/footer';
 
-import SceneCountries from "./scenes/pageCountries";
 import SceneHome from "./scenes/pageHome";
+import SceneLocations from "./scenes/pageLocations";
 import SceneBallparks from "./scenes/pageBallparks";
 import SceneFranchises from "./scenes/pageFranchises";
 import ScenePlayers from "./scenes/pagePlayers";
@@ -23,7 +23,7 @@ class App extends Component {
         <main>
           <Switch>
             <Route path="./" exact component={ SceneHome }/>
-            <Route path="/countries" component={ SceneCountries }/>
+            <Route path="/locations" component={ SceneLocations }/>
             <Route path="/ballparks" component={ SceneBallparks }/>
             <Route path="/teams" component={ SceneFranchises }/>
             <Route path="/players" component={ ScenePlayers }/>
