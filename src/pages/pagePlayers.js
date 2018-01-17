@@ -11,7 +11,7 @@ class PagePlayers extends Component {
   render() {
     return (
       <main className='page-players' style={{backgroundImage: `url(${Background})`}}>
-        <div className='div-teams-players'>
+        <div className='div-players-content'>
           <h1>Player Search by Last Name</h1>
           <h1>&nbsp;</h1>
           <div className='div-search-letter'>
