@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
 
-import Header from "./components/header";
-import NavBar from "./components/navbar";
-import Footer from './components/footer';
+import Header from "./components/AppHeader";
+import NavBar from "./components/AppNavBar";
+import Footer from './components/AppFooter';
 
-import SceneHome from "./scenes/pageHome";
-import SceneLocations from "./scenes/pageLocations";
-import SceneBallparks from "./scenes/pageBallparks";
-import SceneFranchises from "./scenes/pageFranchises";
-import ScenePlayers from "./scenes/pagePlayers";
-import SceneGames from "./scenes/pageGames";
+import PageHome from "./pages/pageHome";
+import PageLocations from "./pages/pageLocations";
+import PageBallparks from "./pages/pageBallparks";
+import PageFranchises from "./pages/pageFranchises";
+import PagePlayers from "./pages/pagePlayers";
+import PageGames from "./pages/pageGames";
+import PageAchievements from "./pages/pageAchievements";
 
 import './App.css';
 
@@ -22,12 +23,12 @@ class App extends Component {
         <NavBar />
         <main>
           <Switch>
-            <Route path="./" exact component={ SceneHome }/>
-            <Route path="/locations" component={ SceneLocations }/>
-            <Route path="/ballparks" component={ SceneBallparks }/>
-            <Route path="/teams" component={ SceneFranchises }/>
-            <Route path="/players" component={ ScenePlayers }/>
-            <Route path="/games" component={ SceneGames }/>
+            <Route path="/" exact component={ PageHome }/>
+            <Route path="/ballparks" component={ PageBallparks }/>
+            <Route path="/teams" component={ PageFranchises }/>
+            <Route path="/players" component={ PagePlayers }/>
+            <Route path="/games" component={ PageGames }/>
+            <Route path="/achievements" component={ PageAchievements }/>
           </Switch>
         </main>
         <Footer />

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class SceneFranchises extends Component {
+class PageSettings extends Component {
   
   constructor(props) {
     super(props);
@@ -9,9 +9,9 @@ class SceneFranchises extends Component {
 
   render() {
     return (
-      <h1>Teams &amp; Franchises</h1>
+      <h1>Setings</h1>
     );
   }
 }
 
-export default SceneFranchises;
+export default PageSettings;

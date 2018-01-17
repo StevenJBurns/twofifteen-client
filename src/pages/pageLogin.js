@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class ScenePlayers extends Component {
+class PageLogin extends Component {
   
   constructor(props) {
     super(props);
@@ -9,9 +9,9 @@ class ScenePlayers extends Component {
 
   render() {
     return (
-      <h1>Players</h1>
+      <h1>Login</h1>
     );
   }
 }
 
-export default ScenePlayers;
+export default PageLogin;

@@ -13,11 +13,11 @@ class NavBar extends Component {
       <nav className="App-navbar">
         <ul>
           <li><Link to="/">Home</Link></li>
-          <li><Link to="/locations">Locations</Link></li>          
           <li><Link to="/ballparks">Ballparks</Link></li>
           <li><Link to="/teams">Teams</Link></li>
           <li><Link to="/players">Players</Link></li>
           <li><Link to="/games">Games</Link></li>
+          <li><Link to="/achievements">Achievements</Link></li>
         </ul>
       </nav>
     );

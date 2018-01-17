@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class SceneLocations extends Component {
+class PageLocations extends Component {
   
   constructor(props) {
     super(props);
@@ -24,4 +24,4 @@ class SceneLocations extends Component {
   }
 }
 
-export default SceneLocations;
+export default PageLocations;
