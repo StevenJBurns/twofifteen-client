@@ -83,7 +83,7 @@ class PageFranchises extends Component {
             <h3>Los Angeles Angels</h3>
           </div>
           <div className='grid-item div-team-logo' style={{backgroundImage: `url(${Dodgers})` }}>
-            <h3>Los Angeles Dodgers</h3>
+            <h4>Los Angeles Dodgers</h4>
           </div>
           <div className='grid-item div-team-logo' style={{backgroundImage: `url(${Marlins})` }}>
             <h3>Miami Marlins</h3>
@@ -113,7 +113,7 @@ class PageFranchises extends Component {
             <h3>San Diego Padres</h3>
           </div>
           <div className='grid-item div-team-logo' style={{backgroundImage: `url(${Giants})` }}>
-            <h3>San Francisco Giants</h3>
+            <h4>San Francisco Giants</h4>
           </div>
           <div className='grid-item div-team-logo' style={{backgroundImage: `url(${Mariners})` }}>
             <h3>Seattle Mariners</h3>

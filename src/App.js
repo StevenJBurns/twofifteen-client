@@ -10,6 +10,8 @@ import PageLocations from "./pages/pageLocations";
 import PageBallparks from "./pages/pageBallparks";
 import PageFranchises from "./pages/pageFranchises";
 import PagePlayers from "./pages/pagePlayers";
+import PagePlayersR from "./pages/pagePlayersR";
+import PageBabeRuth from "./pages/pageBabeRuth"
 import PageGames from "./pages/pageGames";
 import PageAchievements from "./pages/pageAchievements";
 
@@ -26,7 +28,9 @@ class App extends Component {
             <Route path="/" exact component={ PageHome }/>
             <Route path="/ballparks" component={ PageBallparks }/>
             <Route path="/teams" component={ PageFranchises }/>
-            <Route path="/players" component={ PagePlayers }/>
+            <Route path="/players" exact component={ PagePlayers }/>
+            <Route path="/players/r" exact component={ PagePlayersR }/>
+            <Route path="/players/babe-ruth" component={ PageBabeRuth }/>
             <Route path="/games" component={ PageGames }/>
             <Route path="/achievements" component={ PageAchievements }/>
           </Switch>

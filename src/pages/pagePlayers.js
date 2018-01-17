@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import PagePlayersR from './pagePlayersR';
 import Background from '../images/players.jpg';
 
 class PagePlayers extends Component {
@@ -66,7 +68,7 @@ class PagePlayers extends Component {
             <h1>Q</h1>
           </div>
           <div className='div-search-letter'>
-            <h1>R</h1>
+            <Link to="/players/r"><h1>R</h1></Link>
           </div>
           <div className='div-search-letter'>
             <h1>S</h1>

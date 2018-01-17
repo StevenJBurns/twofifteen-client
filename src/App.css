@@ -99,11 +99,45 @@ main ul li {
   text-align: center;
 }
 
+
+.page-players a {
+  text-decoration: none;
+}
+
+.page-players a:hover {
+  text-decoration: none;
+}
+
+.page-players a:visited {
+  color: #F0F0F0;
+}
+
 .div-players-content {
   padding: 96px 512px;
   color: #F0F0F0;
   text-align: center;
   text-shadow: #000000 1px 0 10px;
+}
+
+.page-players-r {
+  color: #F0F0F0;
+}
+
+.page-players-r ul {
+  width: 540px;
+  padding: 16px;
+  color: #F0F0F0;
+}
+
+.page-players-r li {
+  margin: 16px;
+  font-size: 24px;
+  text-align: left;
+  background-color: #7F7F7F;
+}
+
+.page-babe-ruth {
+  background-color: #373737;
 }
 
 .div-games-content {
