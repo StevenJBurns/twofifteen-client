@@ -57,123 +57,123 @@ class PageBallparks extends Component {
       <main className='page-ballparks' style={{backgroundImage: `url(${Background})`}}>
         <div className='div-venues-content'>
           {/* <div>{ venueMap }</div> */}
-          <div className='grid-item' style={{backgroundImage: `url(${Anaheim})` }}>
+          <div className='grid-item div-venue-image' style={{backgroundImage: `url(${Anaheim})` }}>
             <h3>Angel Stadium</h3>
             <h4>Anaheim &bull; CA</h4>
           </div>
-          <div className='grid-item' style={{backgroundImage: `url(${SanFran})` }}>
+          <div className='grid-item div-venue-image' style={{backgroundImage: `url(${SanFran})` }}>
             <h3>AT&amp;T Park</h3>
             <h4>San Francisco &bull; CA</h4>
           </div>
-          <div className='grid-item' style={{backgroundImage: `url(${StLouis})` }}>
+          <div className='grid-item div-venue-image' style={{backgroundImage: `url(${StLouis})` }}>
             <h3>Busch Stadium</h3>
             <h4>St Louis &bull; MO</h4>
           </div>
-          <div className='grid-item' style={{backgroundImage: `url(${Phoenix})` }}>
+          <div className='grid-item div-venue-image' style={{backgroundImage: `url(${Phoenix})` }}>
             <h3>Chase Field</h3>
             <h4>Phoenix &bull; AZ</h4>
           </div>
-          <div className='grid-item' style={{backgroundImage: `url(${Queens})` }}>
+          <div className='grid-item div-venue-image' style={{backgroundImage: `url(${Queens})` }}>
             <h3>Citi Field</h3>
             <h4>Queens &bull; NY</h4>
           </div>
-          <div className='grid-item' style={{backgroundImage: `url(${Philly})` }}>
+          <div className='grid-item div-venue-image' style={{backgroundImage: `url(${Philly})` }}>
             <h3>Citizens Bank Park</h3>
             <h4>Philadelphia &bull; PA</h4>
           </div>
-          <div className='grid-item' style={{backgroundImage: `url(${Detroit})` }}>
+          <div className='grid-item div-venue-image' style={{backgroundImage: `url(${Detroit})` }}>
             <h3>Comerica Park</h3>
             <h4>Detroit &bull; MI</h4>
           </div>
-          <div className='grid-item' style={{backgroundImage: `url(${Baltimore})` }}>
+          <div className='grid-item div-venue-image' style={{backgroundImage: `url(${Baltimore})` }}>
             <h3>Coors Field</h3>
             <h4>Denver &bull; CO</h4>
           </div>
-          <div className='grid-item' style={{backgroundImage: `url(${LA})` }}>
+          <div className='grid-item div-venue-image' style={{backgroundImage: `url(${LA})` }}>
             <h3>Dodger Stadium</h3>
             <h4>Los Angeles &bull; CA</h4>
           </div>
-          <div className='grid-item' style={{backgroundImage: `url(${Boston})` }}>
+          <div className='grid-item div-venue-image' style={{backgroundImage: `url(${Boston})` }}>
             <h3>Fenway Park</h3>
             <h4>Boston &bull; MA</h4>
           </div>
-          <div className='grid-item' style={{backgroundImage: `url(${Arlington})` }}>
+          <div className='grid-item div-venue-image' style={{backgroundImage: `url(${Arlington})` }}>
             <h3>Globe Life Park</h3>
             <h4>Arlington &bull; TX</h4>
           </div>
-          <div className='grid-item' style={{backgroundImage: `url(${Cincinnati})` }}>
+          <div className='grid-item div-venue-image' style={{backgroundImage: `url(${Cincinnati})` }}>
             <h4>Great American Ball Park</h4>
             <h4>Cincinnati &bull; OH</h4>
           </div>
-          <div className='grid-item' style={{backgroundImage: `url(${ChicagoS})` }}>
+          <div className='grid-item div-venue-image' style={{backgroundImage: `url(${ChicagoS})` }}>
             <h3>Guarantee Rate Field</h3>
             <h4>Chicago &bull; IL</h4>
           </div>
-          <div className='grid-item' style={{backgroundImage: `url(${KC})` }}>
+          <div className='grid-item div-venue-image' style={{backgroundImage: `url(${KC})` }}>
             <h3>Kaufmann Stadium</h3>
             <h4>Kansas City &bull; MO</h4>
           </div>
-          <div className='grid-item' style={{backgroundImage: `url(${Miami})` }}>
+          <div className='grid-item div-venue-image' style={{backgroundImage: `url(${Miami})` }}>
             <h3>Marlins Park</h3>
             <h4>Miami &bull; FL</h4>
           </div>
-          <div className='grid-item' style={{backgroundImage: `url(${Milwaukee})` }}>
+          <div className='grid-item div-venue-image' style={{backgroundImage: `url(${Milwaukee})` }}>
             <h3>Miller Park</h3>
             <h4>Milwuakee &bull; WI</h4>
           </div>
-          <div className='grid-item' style={{backgroundImage: `url(${Seattle})` }}>
+          <div className='grid-item div-venue-image' style={{backgroundImage: `url(${Seattle})` }}>
             <h3>Minute Maid Park</h3>
             <h4>Houston &bull; TX</h4>
           </div>
-          <div className='grid-item' style={{backgroundImage: `url(${Washington})` }}>
+          <div className='grid-item div-venue-image' style={{backgroundImage: `url(${Washington})` }}>
             <h3>Nationals Park</h3>
             <h4>Washington &bull; DC</h4>
           </div>
-          <div className='grid-item' style={{backgroundImage: `url(${Oakland})` }}>
+          <div className='grid-item div-venue-image' style={{backgroundImage: `url(${Oakland})` }}>
             <h3>Oakland Colesium</h3>
             <h4>Oakland &bull; CA</h4>
           </div>
-          <div className='grid-item' style={{backgroundImage: `url(${Baltimore})` }}>
+          <div className='grid-item div-venue-image' style={{backgroundImage: `url(${Baltimore})` }}>
             <h3>Camden Yards</h3>
             <h4>Baltimore &bull; MD</h4>
           </div>
-          <div className='grid-item' style={{backgroundImage: `url(${Queens})` }}>
+          <div className='grid-item div-venue-image' style={{backgroundImage: `url(${Queens})` }}>
             <h3>Petco Park</h3>
             <h4>San Diego &bull; CA</h4>
           </div>
-          <div className='grid-item' style={{backgroundImage: `url(${Pittsburgh})` }}>
+          <div className='grid-item div-venue-image' style={{backgroundImage: `url(${Pittsburgh})` }}>
             <h3>PNC Park</h3>
             <h4>Pittsburgh &bull; PA</h4>
           </div>
-          <div className='grid-item' style={{backgroundImage: `url(${Cleveland})` }}>
+          <div className='grid-item div-venue-image' style={{backgroundImage: `url(${Cleveland})` }}>
             <h3>Progressive Field</h3>
             <h4>Cleveland &bull; OH</h4>
           </div>
-          <div className='grid-item' style={{backgroundImage: `url(${Toronto})` }}>
+          <div className='grid-item div-venue-image' style={{backgroundImage: `url(${Toronto})` }}>
             <h3>Rogers Centre</h3>
             <h4>Toronto &bull; Canada</h4>
           </div>
-          <div className='grid-item' style={{backgroundImage: `url(${Seattle})` }}>
+          <div className='grid-item div-venue-image' style={{backgroundImage: `url(${Seattle})` }}>
             <h3>SafeCo Field</h3>
             <h4>Seattle &bull; WA</h4>
           </div>
-          <div className='grid-item' style={{backgroundImage: `url(${Atlanta})` }}>
+          <div className='grid-item div-venue-image' style={{backgroundImage: `url(${Atlanta})` }}>
             <h3>SunTrust Park</h3>
             <h4>Cumberland &bull; GA</h4>
           </div>
-          <div className='grid-item' style={{backgroundImage: `url(${Minnesota})` }}>
+          <div className='grid-item div-venue-image' style={{backgroundImage: `url(${Minnesota})` }}>
             <h3>Target Field</h3>
             <h4>Minneapolis &bull; MN</h4>
           </div>
-          <div className='grid-item' style={{backgroundImage: `url(${Toronto})` }}>
+          <div className='grid-item div-venue-image' style={{backgroundImage: `url(${Toronto})` }}>
             <h3>Tropicana Field</h3>
             <h4>St Petersburg &bull; FL</h4>
           </div>
-          <div className='grid-item' style={{backgroundImage: `url(${ChicagoN})` }}>
+          <div className='grid-item div-venue-image' style={{backgroundImage: `url(${ChicagoN})` }}>
             <h3>Wrigley Field</h3>
             <h4>Chicago &bull; IL</h4>
           </div>
-          <div className='grid-item' style={{backgroundImage: `url(${Bronx})` }}>
+          <div className='grid-item div-venue-image' style={{backgroundImage: `url(${Bronx})` }}>
             <h3>Yankee Stadium</h3>
             <h4>Bronx &bull; NY</h4>
           </div>

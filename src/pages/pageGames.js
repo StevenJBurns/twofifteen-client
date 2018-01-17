@@ -12,6 +12,7 @@ class PageGames extends Component {
     return (
       <main className='page-games' style={{backgroundImage: `url(${Background})`}}>
         <div className='div-games-content'>
+          <h1>Games Search by Decade</h1>
           <div className='div-search-decade'>
             <h1>1871 - 1880</h1>
           </div>
