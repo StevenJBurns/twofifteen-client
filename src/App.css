@@ -66,9 +66,22 @@ main ul li {
   list-style-type: none;
 }
 
-.div-home-content {
-  padding: 96px 256px;
+
+.page-home {
+  padding-top: 96px;
+}
+
+.div-page-content {
+  margin: 0 256px;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.p-home-content {
+  padding: 96px;
   color: #F0F0F0;
+  background-color: #7F7F7F;
+  opacity: 0.8;
   font-size: 36px;
   text-align: justify;
 }
