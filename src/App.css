@@ -81,6 +81,7 @@ main ul li {
   padding: 96px;
   color: #F0F0F0;
   background-color: #7F7F7F;
+  text-shadow: #000000 1px 0 10px;
   opacity: 0.8;
   font-size: 36px;
   text-align: justify;
@@ -102,6 +103,7 @@ main ul li {
   padding: 96px 512px;
   color: #F0F0F0;
   text-align: center;
+  text-shadow: #000000 1px 0 10px;
 }
 
 .div-games-content {
@@ -113,19 +115,24 @@ main ul li {
 .div-games-content > h1 {
   margin: 24px auto;
   padding: 12px;
-  background-color: #373737
+  background-color: #5F5F5F;
+  text-shadow: #000000 1px 0 10px;
 }
 
 .div-achievements-content {
   padding: 96px 256px;
   color: #F0F0F0;
   text-align: center;
+
 }
 
 .div-achievements-content h1 {
   margin: 24px auto;
   padding: 12px;
-  background-color: #373737
+  background-color: #5F5F5F;
+  text-shadow: #000000 1px 0 10px;
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 .App-footer {
@@ -165,7 +172,6 @@ main ul li {
 .div-team-logo {
   color: #0F0F0F;
   background-size: contain;
-  /* background-repeat: no-repeat; */
   background: no-repeat center center;
   background-color: #FFFFFF
 }
@@ -176,8 +182,9 @@ main ul li {
   width : 64px;
   color: #F0F0F0;
   background-color: #7F7F7F;
-  border: 4px solid black;
+  border: 4px solid #0F0F0F;
   display: inline-block;
+  border-radius: 8px;
 }
 
 .div-search-letter h1 {
@@ -186,6 +193,7 @@ main ul li {
   display:flex;
   align-items: center;
   justify-content: center;
+  text-shadow: #000000 1px 0 10px;
 }
 
 .div-search-decade {
@@ -195,6 +203,8 @@ main ul li {
   color: #F0F0F0;
   background-color: #7F7F7F;
   border: 4px solid black;
+  border-radius: 8px;
+  overflow: hidden;
   display: inline-block;
 }
 
@@ -204,4 +214,7 @@ main ul li {
   display:flex;
   align-items: center;
   justify-content: center;
+  text-shadow: #000000 1px 0 10px;
+  border-radius: 8px;
+  overflow: hidden;
 }
