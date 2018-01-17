@@ -101,10 +101,12 @@ main ul li {
 
 
 .page-players a {
+  color: #F0F0F0;
   text-decoration: none;
 }
 
 .page-players a:hover {
+  color: #F0F0F0;
   text-decoration: none;
 }
 
