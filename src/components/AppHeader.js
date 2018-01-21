@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import BaseballLogoSVG from '../baseball.svg';
 
-
 class Header extends Component {
 
   constructor(props) {

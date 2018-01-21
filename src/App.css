@@ -83,7 +83,7 @@ main ul li {
   text-shadow: #000000 1px 0 10px;
   opacity: 0.8;
   font-size: 36px;
-  text-align: justify;
+  text-align: left;
 }
 
 .div-venues-content {
