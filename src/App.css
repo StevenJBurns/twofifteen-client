@@ -177,6 +177,11 @@ main ul li {
   background-color: #151B54;
 }
 
+footer p,
+footer h4 {
+  padding: 12px
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
