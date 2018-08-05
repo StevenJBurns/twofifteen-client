@@ -17,3 +17,8 @@ export const searchGames = gameID => ({
     type: "SEARCH_GAMES",
     payload: gameID
 });
+
+export const searchAchievements = achievementID => ({
+    type: "SEARCH_ACHIEVEMENTS",
+    payload: achievementID
+});
