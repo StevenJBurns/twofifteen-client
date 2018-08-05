@@ -3,7 +3,7 @@ export const searchVenues = venueID => ({
     payload: venueID
 });
 
-export const changeAudioSource = audioSource => ({
-    type: "CHANGE_AUDIO_SOURCE",
-    payload: audioSource
+export const searchFranchises = franchiseID => ({
+    type: "SEARCH_FRANCHISES",
+    payload: franchiseID
 });
