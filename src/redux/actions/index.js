@@ -1,6 +1,6 @@
-export const toggleAudioMute = audioState => ({
-    type: "TOGGLE_AUDIO",
-    payload: audioState
+export const searchVenues = venueID => ({
+    type: "SEARCH_VENUES",
+    payload: venueID
 });
 
 export const changeAudioSource = audioSource => ({
