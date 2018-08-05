@@ -7,3 +7,8 @@ export const searchFranchises = franchiseID => ({
     type: "SEARCH_FRANCHISES",
     payload: franchiseID
 });
+
+export const searchPlayers = playerID => ({
+    type: "SEARCH_PLAYERS",
+    payload: playerID
+});
