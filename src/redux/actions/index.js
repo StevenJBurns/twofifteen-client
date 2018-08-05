@@ -12,3 +12,8 @@ export const searchPlayers = playerID => ({
     type: "SEARCH_PLAYERS",
     payload: playerID
 });
+
+export const searchGames = gameID => ({
+    type: "SEARCH_GAMES",
+    payload: gameID
+});
