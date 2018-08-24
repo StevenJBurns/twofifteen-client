@@ -4,11 +4,11 @@
   "private": true,
   "dependencies": {
     "create-react-class": "^15.6.3",
-    "react": "^16.4.0",
-    "react-dom": "^16.4.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
     "react-overdrive": "0.0.9",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "^1.1.4",
+    "react-scripts": "^1.1.5",
     "redux": "^4.0.0"
   },
   "scripts": {
