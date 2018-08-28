@@ -31,7 +31,7 @@ import Atlanta from '../images/atlanta.jpg';
 import ChicagoN from '../images/chicago-n.jpg';
 import Bronx from '../images/bronx.jpg';
 
-class PageBallparks extends React.Component {
+class PageVenues extends React.Component {
   static api_url = "http://twofifteen-api.azurewebsites.net/venue";
 
   constructor(props) {
