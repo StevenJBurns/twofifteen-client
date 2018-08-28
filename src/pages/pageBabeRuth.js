@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Background from '../images/player-detail.jpg';
 
-class PageBabeRuth extends Component {
+class PageBabeRuth extends React.Component {
 
   constructor(props) {
     super(props);
