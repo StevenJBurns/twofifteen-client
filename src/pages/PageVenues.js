@@ -183,4 +183,4 @@ class PageVenues extends React.Component {
   }
 }
 
-export default PageBallparks;
+export default PageVenues;
