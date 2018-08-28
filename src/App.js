@@ -6,14 +6,14 @@ import NavBar from "./components/AppNavBar";
 import Footer from './components/AppFooter';
 
 import PageHome from "./pages/pageHome";
-import PageLocations from "./pages/pageLocations";
-import PageBallparks from "./pages/pageBallparks";
+import PageVenues from "./pages/PageVenues";
+// import PageVenues from "./pages/pageVenues";
 import PageFranchises from "./pages/pageFranchises";
 import PagePlayers from "./pages/pagePlayers";
 import PagePlayersR from "./pages/pagePlayersR";
-import PageBabeRuth from "./pages/pageBabeRuth"
+import PageBabeRuth from "./pages/PageBabeRuth"
 import PageGames from "./pages/pageGames";
-import PageAchievements from "./pages/pageAchievements";
+import PageAchievements from "./pages/PageAchievements";
 
 import './App.css';
 
@@ -26,7 +26,7 @@ class App extends Component {
         <main>
           <Switch>
             <Route path="/" exact component={ PageHome }/>
-            <Route path="/ballparks" component={ PageBallparks }/>
+            <Route path="/ballparks" component={ PageVenues }/>
             <Route path="/teams" component={ PageFranchises }/>
             <Route path="/players" exact component={ PagePlayers }/>
             <Route path="/players/r" exact component={ PagePlayersR }/>

@@ -40,7 +40,7 @@ class PageVenues extends React.Component {
   }
 
   fetchVenues() {
-    fetch(PageBallparks.api_url) //{ mode : "cors" }
+    fetch(PageVenues.api_url) //{ mode : "cors" }
       .then(res => res.json())
       .then(json => this.setState({ venues : json }))
       .catch(error => console.log(error));
