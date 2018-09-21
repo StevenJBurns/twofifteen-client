@@ -56,35 +56,18 @@
 }
 
 main {
+  flex: 1 0 auto;
+  min-height: 100vh;
+  flex-direction: column;
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 100vh;
-  flex: 1 0 auto;
 }
 
 main ul li {
   list-style-type: none;
 }
 
-.page-home {
-  padding: 96px;
-}
 
-.div-page-content {
-  margin: 96px;
-  border-radius: 24px;
-  overflow: hidden;
-}
-
-.p-home-content {
-  padding: 96px;
-  color: #F0F0F0;
-  background-color: #7F7F7F;
-  text-shadow: #000000 1px 0 10px;
-  opacity: 0.8;
-  font-size: 36px;
-  text-align: left;
-}
 
 .div-venues-content {
   padding: 96px;
