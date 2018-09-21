@@ -1,9 +1,16 @@
+/* React & React Router */
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
 
+/* Components */
 import Header from "./components/AppHeader";
 import NavBar from "./components/AppNavBar";
 import Footer from './components/AppFooter';
+
+/* Stylesheets */
+
+
+/* Assets */
 
 import PageHome from "./pages/pageHome";
 import PageVenues from "./pages/PageVenues";
