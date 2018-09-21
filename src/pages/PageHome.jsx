@@ -1,8 +1,13 @@
+/* React */ 
 import React from 'react';
+
+/* Stylesheets */
+
+/* Assets */ 
 import Background from '../images/home.jpg';
 
-class PageHome extends React.Component {
 
+class PageHome extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
