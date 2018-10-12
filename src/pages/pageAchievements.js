@@ -1,5 +1,5 @@
 import React from 'react';
-import Background from '../images/achievements.jpg';
+import Background from '../assets/images/app/achievements.jpg';
 
 class PageAchievements extends React.Component {
 
