@@ -1,8 +1,7 @@
 import React from 'react';
-import Background from '../assets/images/app/achievements.jpg';
+
 
 class PageAchievements extends React.Component {
-
   constructor(props) {
     super(props);
     this.state = {};
@@ -10,8 +9,8 @@ class PageAchievements extends React.Component {
 
   render() {
     return (
-      <main className='page-achievements' style={{backgroundImage: `url(${Background})`}}>
-        <div className='div-achievements-content'>
+      <main>
+        <div>
           <h1>Championships</h1>
           <h1>Hall of Fame</h1>
           <h1>All-Star Games</h1>

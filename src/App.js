@@ -1,30 +1,29 @@
 /* React & React Router */
-import React, { Component } from 'react';
+import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 /* Components */
-import Header from "./components/AppHeader";
-import NavBar from "./components/AppNavBar";
-import Footer from './components/AppFooter';
+import AppHeader from "./components/AppHeader";
+import AppNav from "./components/AppNavBar";
+import AppFooter from './components/AppFooter';
+
+import PageHome from "./pages/PageHome.jsx";
+import PageVenues from "./pages/PageVenues";
+import PageFranchises from "./pages/pageFranchises";
+import PagePlayers from "./pages/pagePlayers";
+import PagePlayer from "./pages/pagePlayer";
+import PageGames from "./pages/pageGames";
+import PageAchievements from "./pages/PageAchievements";
 
 /* Stylesheets */
 
 
 /* Assets */
 
-import PageHome from "./pages/pageHome";
-import PageVenues from "./pages/PageVenues";
-// import PageVenues from "./pages/pageVenues";
-import PageFranchises from "./pages/pageFranchises";
-import PagePlayers from "./pages/pagePlayers";
-import PagePlayersR from "./pages/pagePlayersR";
-import PageBabeRuth from "./pages/PageBabeRuth"
-import PageGames from "./pages/pageGames";
-import PageAchievements from "./pages/PageAchievements";
 
 import './App.css';
 
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
       <div className="App">
@@ -36,8 +35,7 @@ class App extends Component {
             <Route path="/ballparks" component={ PageVenues }/>
             <Route path="/teams" component={ PageFranchises }/>
             <Route path="/players" exact component={ PagePlayers }/>
-            <Route path="/players/r" exact component={ PagePlayersR }/>
-            <Route path="/players/babe-ruth" component={ PageBabeRuth }/>
+            <Route path="/player" exact component={ PagePlayer }/>
             <Route path="/games" component={ PageGames }/>
             <Route path="/achievements" component={ PageAchievements }/>
           </Switch>
