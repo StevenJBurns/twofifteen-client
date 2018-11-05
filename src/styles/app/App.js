@@ -3,9 +3,9 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 /* Components */
-import AppHeader from "./components/AppHeader";
-import AppNav from "./components/AppNavBar";
-import AppFooter from './components/AppFooter';
+import AppHeader from "./AppHeader";
+import AppNav from "./AppNavBar";
+import AppFooter from './AppFooter';
 
 import PageHome from "./pages/PageHome.jsx";
 import PageVenues from "./pages/PageVenues";
@@ -21,14 +21,14 @@ import PageAchievements from "./pages/PageAchievements";
 /* Assets */
 
 
-import './App.css';
+import './styles/app/App.css';
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Header />
-        <NavBar />
+        <AppHeader />
+        <AppNav />
         <main>
           <Switch>
             <Route path="/" exact component={ PageHome }/>
@@ -40,7 +40,7 @@ class App extends React.Component {
             <Route path="/achievements" component={ PageAchievements }/>
           </Switch>
         </main>
-        <Footer />
+        <AppFooter />
       </div>
     );
   }

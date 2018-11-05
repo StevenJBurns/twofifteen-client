@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import BaseballLogoSVG from '../baseball.svg';
+import BaseballLogoSVG from '../../assets/images/baseball.svg';
 
-class Header extends Component {
+class AppHeader extends Component {
 
   constructor(props) {
     super(props);
@@ -18,4 +18,4 @@ class Header extends Component {
   }
 }
 
-export default Header;
+export default AppHeader;

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Footer extends Component {
+class AppFooter extends Component {
 
   constructor(props) {
     super(props);
@@ -17,4 +17,4 @@ class Footer extends Component {
   }
 }
 
-export default Footer;
+export default AppFooter;

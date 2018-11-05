@@ -5,17 +5,17 @@ import { BrowserRouter } from 'react-router-dom';
 
 /* Components */
 import registerServiceWorker from './registerServiceWorker';
-import App from './App';
+import App from './components/app/App.jsx';
 
 /* Stylesheets */
-import './index.css';
+import './styles/index.css';
 
 
 ReactDOM.render(
   <BrowserRouter>
     <App />
   </BrowserRouter>,
-  document.getElementById('react-root')
+  document.getElementById("react-root")
 );
 
 registerServiceWorker();

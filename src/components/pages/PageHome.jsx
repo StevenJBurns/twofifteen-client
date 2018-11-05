@@ -2,7 +2,7 @@
 import React from 'react';
 
 /* Stylesheets */
-import "../styles/containers/PageHome.css";
+import "../../styles/containers/PageHome.css";
 
 /* Assets */ 
 
