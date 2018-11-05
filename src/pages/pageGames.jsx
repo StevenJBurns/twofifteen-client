@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import Background from '../images/games.jpg';
+import React from 'react';
 
-class PageGames extends Component {
+
+class PageGames extends React.Component {
   
   constructor(props) {
     super(props);
@@ -10,7 +10,7 @@ class PageGames extends Component {
 
   render() {
     return (
-      <main className='page-games' style={{backgroundImage: `url(${Background})`}}>
+      <main className='page-games'>
         <div className='div-games-content'>
           <h1>Games Search by Decade</h1>
           <div className='div-search-decade'>
