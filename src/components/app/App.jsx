@@ -16,7 +16,8 @@ import PageGames from "../pages/pageGames";
 import PageAchievements from "../pages/PageAchievements";
 
 /* Stylesheets */
-import '../../styles/app/App.css';
+import '../../styles/app/App-1.css';
+import '../../styles/app/App-2.css';
 
 /* Assets */
 

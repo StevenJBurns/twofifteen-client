@@ -1,7 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import BaseballLogoSVG from '../../assets/images/baseball.svg';
 
-class AppHeader extends Component {
+import "../../styles/app/AppHeader.css";
+
+
+class AppHeader extends React.Component {
 
   constructor(props) {
     super(props);
@@ -10,9 +13,10 @@ class AppHeader extends Component {
   
   render() {
     return (
-      <header className="App-header">
+      <header id="app-header">
         <img src={ BaseballLogoSVG } className="App-logo" alt="TwoFifteen Baseball Database" />
-        <h1 className="App-title">Welcome to TwoFifteen</h1>
+        <h2 className="App-title">TwoFifteen</h2>
+        <h4>An Open Source Baseball Database</h4>
       </header>
     );
   }
