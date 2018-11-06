@@ -15,8 +15,8 @@ class AppHeader extends React.Component {
     return (
       <header id="app-header">
         <img src={ BaseballLogoSVG } className="App-logo" alt="TwoFifteen Baseball Database" />
-        <h2 className="App-title">TwoFifteen</h2>
-        <h4>An Open Source Baseball Database</h4>
+        <h1 id="h1-app-title">TwoFifteen</h1>
+        <h5 id="h5-app-title">An Open Source Baseball Database</h5>
       </header>
     );
   }
