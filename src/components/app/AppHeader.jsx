@@ -7,7 +7,6 @@ import "../../styles/app/AppHeader.css";
 
 
 class AppHeader extends React.Component {
-
   constructor(props) {
     super(props);
     this.state = {};
