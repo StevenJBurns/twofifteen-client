@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class AppFooter extends Component {
+class AppFooter extends React.Component {
 
   constructor(props) {
     super(props);
