@@ -4,7 +4,7 @@ import { Switch, Route } from 'react-router-dom';
 
 /* Components */
 import AppHeader from "./AppHeader";
-import AppNav from "./AppNavBar";
+import AppNav from "./AppNav";
 import AppFooter from './AppFooter';
 
 import PageHome from "../pages/PageHome.jsx";
