@@ -1,16 +1,14 @@
-const initialState = {
-    
-};
+import { combineReducers } from 'redux';
+import { franchiseReducer } from './franchiseReducer';
+import { peopleReducer } from './peopleReducer';
+import { seasonReducer } from './seasonReducer';
+import { venueReducer } from './venueReducer';
 
-const rootReducer = (state = initialState, action) => {
-  switch (action.type) {
-    case "TOGGLE_AUDIO":
-      return { ...state, isAudioMuted: !action.payload };
-    case "CHANGE_AUDIO_SOURCE":
-      return { ...state, currentAudioSource: action.payload };
-    default:
-      return state;
-  }
-}; 
+export const rootReducer = combineReducers({
+  franchises: franchiseReducer,
+  people: peopleReducer,
+  seasons: seasonReducer,
+  venues: venueReducer
+});
 
 export default rootReducer;
