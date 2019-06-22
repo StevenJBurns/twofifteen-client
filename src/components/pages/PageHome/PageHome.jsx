@@ -1,6 +1,7 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
-import "../../styles/containers/PageHome.css";
+// import "../../styles/containers/PageHome.css";
+import './PageHome.css';
 
 export const PageHome = props => {
   const [] = React.useState();

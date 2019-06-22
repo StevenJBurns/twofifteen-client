@@ -1,0 +1,21 @@
+.main-home {
+    flex: 1 0 auto;
+    flex-direction: column;
+    padding: 96px
+  }
+  
+  .main-home .div-page-content {
+    margin: 96px;
+    border-radius: 24px;
+    overflow: hidden
+  }
+  
+  .main-home p {
+    padding: 96px;
+    color: #F0F0F0;
+    background-color: #7F7F7F;
+    text-shadow: #000000 1px 0 10px;
+    font-size: 36px;
+    text-align: left;
+    opacity: 0.8
+  }

@@ -7,7 +7,7 @@ import AppHeader from "./AppHeader";
 import AppNav from "./AppNav";
 import AppFooter from './AppFooter';
 
-import PageHome from "../pages/PageHome.jsx";
+import PageHome from "../pages/PageHome/PageHome.jsx";
 import PageVenues from "../pages/PageVenues";
 import PageFranchises from "../pages/pageFranchises";
 import PagePlayers from "../pages/pagePlayers";
