@@ -1,13 +1,14 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
+import './AppNav.css';
 
 export const AppNav = props => {
   const [] = React.useState();
 
   return (
-    <nav className="App-navbar">
-      <ul>
+    <nav className="app-nav">
+      <ul className="app-nav__ul">
         <li><Link to="/">Home</Link></li>
         <li><Link to="/ballparks">Ballparks</Link></li>
         <li><Link to="/teams">Teams</Link></li>

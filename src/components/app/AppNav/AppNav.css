@@ -1,3 +1,23 @@
-#app-nav {
-  
+.app-nav {
+
+}
+
+.app-nav__ul {
+  list-style: none;
+}
+
+.app-nav__ul li {
+}
+
+.app-nav__ul a:link,
+.app-nav__ul a:visited {
+  text-decoration: none;
+  color: goldenrod
+}
+
+.app-nav__ul a:hover,
+.app-nav__ul a:active {
+  background-color: #6b6e93;
+  text-decoration: none;
+  color: goldenrod
 }
