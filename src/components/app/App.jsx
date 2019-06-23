@@ -3,16 +3,16 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 /* Components */
-import AppHeader from "./AppHeader/AppHeader";
-import AppNav from "./AppNav/AppNav";
-import AppFooter from './AppFooter/AppFooter';
+// import AppHeader from "./AppHeader/AppHeader";
+// import AppNav from "./AppNav/AppNav";
+// import AppFooter from './AppFooter/AppFooter';
 
 import PageHome from "../pages/PageHome/PageHome.jsx";
 import PageVenues from "../pages/PageVenues";
-import PageFranchises from "../pages/pageFranchises";
-import PagePlayers from "../pages/pagePlayers";
-import PagePlayer from "../pages/pagePlayer";
-import PageGames from "../pages/pageGames";
+import PageFranchises from "../pages/PageFranchises";
+import PagePlayers from "../pages/PagePlayers";
+import PagePlayer from "../pages/PagePlayer";
+import PageGames from "../pages/PageGames";
 import PageAchievements from "../pages/PageAchievements";
 
 /* Stylesheets */

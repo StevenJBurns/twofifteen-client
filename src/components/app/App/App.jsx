@@ -1,9 +1,9 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
-import AppHeader from "../AppHeader/AppHeader";
-import AppNav from "../AppNav/AppNav";
-import AppFooter from '../AppFooter/AppFooter';
+// import AppHeader from "../AppHeader/AppHeader";
+// import AppNav from "../AppNav/AppNav";
+// import AppFooter from '../AppFooter/AppFooter';
 
 import PageHome from "../../pages/PageHome/PageHome";
 import PageVenues from "../../pages/PageVenues";
