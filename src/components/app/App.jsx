@@ -3,9 +3,9 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 /* Components */
-import AppHeader from "./AppHeader";
-import AppNav from "./AppNav";
-import AppFooter from './AppFooter';
+import AppHeader from "./AppHeader/AppHeader";
+import AppNav from "./AppNav/AppNav";
+import AppFooter from './AppFooter/AppFooter';
 
 import PageHome from "../pages/PageHome/PageHome.jsx";
 import PageVenues from "../pages/PageVenues";
@@ -26,20 +26,18 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <AppHeader />
-        <AppNav />
-        <main>
-          <Switch>
-            <Route path="/" exact component={ PageHome }/>
-            <Route path="/ballparks" component={ PageVenues }/>
-            <Route path="/teams" component={ PageFranchises }/>
-            <Route path="/players" exact component={ PagePlayers }/>
-            <Route path="/player" exact component={ PagePlayer }/>
-            <Route path="/games" component={ PageGames }/>
-            <Route path="/achievements" component={ PageAchievements }/>
-          </Switch>
-        </main>
-        <AppFooter />
+        {/* <AppHeader /> */}
+        {/* <AppNav /> */}
+        <Switch>
+          <Route path="/" exact component={ PageHome }/>
+          <Route path="/ballparks" component={ PageVenues }/>
+          <Route path="/teams" component={ PageFranchises }/>
+          <Route path="/players" exact component={ PagePlayers }/>
+          <Route path="/player" exact component={ PagePlayer }/>
+          <Route path="/games" component={ PageGames }/>
+          <Route path="/achievements" component={ PageAchievements }/>
+        </Switch>
+        {/* <AppFooter /> */}
       </div>
     );
   }
