@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 class PageFranchises extends React.Component {
   
   constructor(props) {
