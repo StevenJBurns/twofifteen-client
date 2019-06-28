@@ -1,7 +1,7 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
 import { AppNav } from '../../app/AppNav/AppNav';
-import './PageHome.css';
+import './PageHome.scss';
 
 export const PageHome = props => {
   const [] = React.useState();
