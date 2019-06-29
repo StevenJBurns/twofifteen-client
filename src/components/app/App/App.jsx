@@ -6,6 +6,7 @@ import { Switch, Route } from 'react-router-dom';
 // import AppFooter from '../AppFooter/AppFooter';
 
 import PageHome from "../../pages/PageHome/PageHome";
+import { PageSeason } from '../../pages/PageSeasons/PageSeason';
 import PageVenues from "../../pages/PageVenues";
 import PageFranchises from "../../pages/PageFranchises/PageFranchises";
 import PagePlayers from "../../pages/PagePlayers/PagePlayers";
@@ -20,6 +21,7 @@ import './App-2.css';
 export const App = props => (
   <Switch>
     <Route path="/" exact component={ PageHome }/>
+    <Route path="/seasons" component={ PageSeason } />
     <Route path="/ballparks" component={ PageVenues }/>
     <Route path="/teams" component={ PageFranchises }/>
     <Route path="/players" exact component={ PagePlayers }/>

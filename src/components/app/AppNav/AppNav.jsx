@@ -9,12 +9,13 @@ export const AppNav = props => {
   return (
     <nav className="app-nav">
       <ul className="app-nav__ul">
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/ballparks">Ballparks</Link></li>
-        <li><Link to="/teams">Teams</Link></li>
-        <li><Link to="/players">Players</Link></li>
-        <li><Link to="/games">Games</Link></li>
-        <li><Link to="/achievements">Achievements</Link></li>
+        <li><Link to="/">HOME</Link></li>
+        <li><Link to="/seasons">SEASONS</Link></li>
+        <li><Link to="/ballparks">BALLPARKS and VENUES</Link></li>
+        <li><Link to="/teams">TEAMS and FRANCHISES</Link></li>
+        <li><Link to="/players">PLAYERS</Link></li>
+        <li><Link to="/games">GAMES</Link></li>
+        <li><Link to="/achievements">ACHIEVEMENTS and RECORDS</Link></li>
       </ul>
     </nav>
   );
