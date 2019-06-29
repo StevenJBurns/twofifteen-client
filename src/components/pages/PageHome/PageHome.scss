@@ -3,7 +3,8 @@
   grid-template-rows: 1fr auto auto 1fr;
   grid-template-columns: repeat(12, 1fr);
   background-image: url('../../../assets/images/app/home.jpg');
-  font-family: Futura;
+  text-shadow: #000000 1px 0 10px;
+  font-family: Ubuntu, Futura;
 }
 
 #page-home__div-upper {
@@ -37,9 +38,8 @@
 }
 
 #page-home__nav {
-  /* background-color: #083000AA; */
   grid-row: 2 / span 2;
-  grid-column: 11 /span 2
+  grid-column: 10 /span 3
 }
   
 /* .main-home .div-page-content {
