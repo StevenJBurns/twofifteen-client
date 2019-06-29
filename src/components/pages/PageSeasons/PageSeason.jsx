@@ -1,5 +1,6 @@
 import React from 'react';
-// import { PropTyoes } from 'prop-types;
+import { PropTypes } from 'prop-types';
+import { createSeasonsList } from '../../../utils/createSeasonsList';
 import './PageSeasons.scss';
 
 export const PageSeason = props => {
@@ -8,9 +9,11 @@ export const PageSeason = props => {
 	const currentYear = new Date().getFullYear()
 	
 	return (
-		<React.Fragment>
-			<h1>{season}</h1>
-		</React.Fragment>
+    <ul className="season-list">
+      { createSeasonsList().map(year =>
+        <li className="season-list__year" key={year}>{year}</li>)
+      }
+    </ul>	
 	);
 }
 
