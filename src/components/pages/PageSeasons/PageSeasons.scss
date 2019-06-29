@@ -1,0 +1,15 @@
+.season-list {
+  margin: 4rem;
+  max-width: 60rem;
+  list-style: none;
+}
+
+.season-list__year {
+  display: inline-block;
+  margin: 0.25rem;
+  padding: 0.25rem;
+  width: 4rem;
+  background-color: #D0D0D0;
+  text-align: center;
+  cursor: default
+}
