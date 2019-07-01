@@ -1,20 +1,19 @@
 import React from 'react';
 import { PropTypes } from 'prop-types';
+import { SeasonSelect } from '../../ui/SeasonsSelect/SeasonsSelect';
 import { createSeasonsList } from '../../../utils/createSeasonsList';
 import './PageSeasons.scss';
 
 export const PageSeason = props => {
-	const [season, setSeason] = React.useState(currentYear);
+	const [season, setSeason] = React.useState(currentYear - 1);
 
-	const currentYear = new Date().getFullYear()
+	const currentYear = new Date().getFullYear();
 	
-	return (
-    <ul className="season-list">
-      { createSeasonsList().map(year =>
-        <li className="season-list__year" key={year}>{year}</li>)
-      }
-    </ul>	
-	);
-}
+	return (<SeasonSelect seasons={createSeasonsList()} />);
+};
+
+PageSeason.propTypes = {};
+
+PageSeason.defaultProps = {};
 
 export default PageSeason;

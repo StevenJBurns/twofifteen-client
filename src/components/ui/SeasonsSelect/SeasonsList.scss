@@ -1,0 +1,11 @@
+.seasons-list {
+  // display: grid;
+  // grid-template-rows: repeat(15, 2rem);
+  // grid-template-columns: repeat(10, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  list-style: none;
+  max-width: 60rem;
+  margin: 4rem;
+}

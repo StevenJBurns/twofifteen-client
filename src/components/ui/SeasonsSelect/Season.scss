@@ -1,0 +1,16 @@
+.season-year {
+  width: 4rem;
+  margin: 0.25rem;
+  padding: 0.25rem;
+  display: inline-block;
+  color: #0F0F0F;
+  background-color: #D0D0D0;
+  border: 2px solid transparent;
+  transition: border-color 0.1s;
+  text-align: center;
+  cursor: default
+}
+
+.season-year:hover {
+  border-color: green
+}
