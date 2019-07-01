@@ -6,11 +6,13 @@ import { Switch, Route } from 'react-router-dom';
 // import AppFooter from '../AppFooter/AppFooter';
 
 import PageHome from "../../pages/PageHome/PageHome";
-import { PageSeason } from '../../pages/PageSeasons/PageSeason';
+import { PageSeasons } from '../../pages/PageSeasonList/PageSeasons';
+import { PageSeason } from '../../pages/PageSeason/PageSeason';
+// import { SeasonSelect } from '../../ui/SeasonsSelect/SeasonsSelect';
 import PageVenues from "../../pages/PageVenues";
 import PageFranchises from "../../pages/PageFranchises/PageFranchises";
 import PagePlayers from "../../pages/PagePlayers/PagePlayers";
-import PagePlayer from "../../pages/PagePlayer";
+// import PagePlayer from "../../pages/PagePlayer";
 import PageGames from "../../pages/PageGames";
 import PageAchievements from "../../pages/PageAchievements/PageAchievements";
 
@@ -21,11 +23,12 @@ import './App-2.css';
 export const App = props => (
   <Switch>
     <Route path="/" exact component={ PageHome }/>
-    <Route path="/seasons" component={ PageSeason } />
-    <Route path="/ballparks" component={ PageVenues }/>
-    <Route path="/teams" component={ PageFranchises }/>
-    <Route path="/players" exact component={ PagePlayers }/>
-    <Route path="/player" exact component={ PagePlayer }/>
+    <Route path="/seasons" exact component={ PageSeasons } />
+    <Route path="/seasons/:season" component={ PageSeason } />
+    <Route path="/venues" component={ PageVenues }/>
+    <Route path="/franchises" component={ PageFranchises }/>
+    <Route path="/people" exact component={ PagePlayers }/>
+    {/* <Route path="/player" exact component={ PagePlayer }/> */}
     <Route path="/games" component={ PageGames }/>
     <Route path="/achievements" component={ PageAchievements }/>
   </Switch>
