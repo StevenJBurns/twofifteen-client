@@ -1,5 +1,5 @@
 .season-year {
-  width: 4rem;
+  width: 3rem;
   margin: 0.25rem;
   padding: 0.25rem;
   display: inline-block;
@@ -13,4 +13,8 @@
 
 .season-year:hover {
   border-color: green
+}
+
+.season-year__link {
+  text-decoration: none
 }
