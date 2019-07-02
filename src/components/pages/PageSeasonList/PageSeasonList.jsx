@@ -3,9 +3,9 @@ import { PropTypes } from 'prop-types';
 import { NavSeasons } from '../../nav/NavSeasons/NavSeasons';
 // import { SeasonSelect } from '../../ui/SeasonsSelect/SeasonsSelect';
 // import { createSeasonsList } from '../../../utils/createSeasonsList';
-import './PageSeasons.scss';
+import './PageSeasonList.scss';
 
-export const PageSeasons = props => {
+export const PageSeasonList = props => {
 	const [season, setSeason] = React.useState(currentYear - 1);
 
 	const currentYear = new Date().getFullYear();
@@ -14,8 +14,8 @@ export const PageSeasons = props => {
 	return (<NavSeasons />);
 };
 
-PageSeasons.propTypes = {};
+PageSeasonList.propTypes = {};
 
-PageSeasons.defaultProps = {};
+PageSeasonList.defaultProps = {};
 
-export default PageSeasons;
+export default PageSeasonList;
