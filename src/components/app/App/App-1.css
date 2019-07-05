@@ -153,17 +153,6 @@ main ul li {
   overflow: hidden;
 }
 
-.App-footer {
-  padding: 24px;
-  color: #F0F0F0;
-  background-color: #151B54;
-}
-
-footer p,
-footer h4 {
-  padding: 12px
-}
-
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
