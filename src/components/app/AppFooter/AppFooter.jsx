@@ -1,6 +1,6 @@
 import React from 'react';
-
-
+import PropTypes from 'prop-types';
+import './AppFooter.scss';
 class AppFooter extends React.Component {
 
   constructor(props) {
