@@ -1,7 +1,7 @@
 import React from 'react';
 import BaseballLogoSVG from '../../../assets/images/baseball.svg';
 import { OnThisDay } from "../../ui/OnThisDay.jsx";
-import "./AppHeader.css";
+import "./AppHeader.scss";
 
 
 class AppHeader extends React.Component {
