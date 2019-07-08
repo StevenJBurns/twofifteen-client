@@ -3,6 +3,7 @@ import { PropTypes } from 'prop-types';
 import { NavSeasons } from '../../nav/NavSeasons/NavSeasons';
 // import { SeasonSelect } from '../../ui/SeasonsSelect/SeasonsSelect';
 // import { createSeasonsList } from '../../../utils/createSeasonsList';
+import { AppFooter } from '../../app/AppFooter/AppFooter';
 import './PageSeasonList.scss';
 
 export const PageSeasonList = props => {
@@ -10,8 +11,12 @@ export const PageSeasonList = props => {
 
 	const currentYear = new Date().getFullYear();
 	
-	// return (<SeasonSelect seasons={createSeasonsList()} />);
-	return (<NavSeasons />);
+	return (
+    <main id="season-list__main">
+      <NavSeasons />
+      <AppFooter />
+    </main>
+  );
 };
 
 PageSeasonList.propTypes = {};
