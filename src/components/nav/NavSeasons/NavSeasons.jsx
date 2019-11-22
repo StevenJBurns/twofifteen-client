@@ -8,10 +8,10 @@ export const NavSeasons = () => {
   return (
     <>
       <nav className="nav-season">
-          {
-            createSeasonsList().map(season =>
-              (<Link key={season} className="season" to={`/seasons/${season}`}>{season}</Link>))
-          }
+        {
+          createSeasonsList().map(season =>
+            (<Link key={season} className="season" to={`/seasons/${season}`}>{season}</Link>))
+        }
       </nav>
       <Link className="nav-season__home-link" to='/seasons'>HOME</Link>
     </>
