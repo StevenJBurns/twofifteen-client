@@ -4,6 +4,12 @@
 
 .page-season__h1 {
   margin: 1rem;
+  cursor: default;
+  transition: color 0.25s;
+
+  &:hover {
+    color: lightcoral;
+  }
 }
 
 .page-season__hr {
