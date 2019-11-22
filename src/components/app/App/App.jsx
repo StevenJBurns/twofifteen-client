@@ -24,15 +24,31 @@ import './App-2.css';
 
 export const App = () => (
   <Switch>
-    <Route path="/" exact component={ PageHome }/>
-    <Route path="/seasons" exact component={ PageSeasonList } />
-    <Route path="/seasons/:season" component={ PageSeasonDetail } />
-    <Route path="/venues" component={ PageVenues }/>
-    <Route path="/franchises" component={ PageFranchises }/>
-    <Route path="/people" exact component={ PagePlayers }/>
+    <Route path="/" exact>
+      <PageHome />
+    </Route>
+    <Route path="/seasons" exact>
+      <PageSeasonList />
+    </Route>
+    <Route path="/seasons/:season">
+      <PageSeasonDetail />
+    </Route>
+    <Route path="/venues">
+      <PageVenues />
+    </Route>
+    <Route path="/franchises">
+      <PageFranchises />
+    </Route>
+    <Route path="/people" exact>
+      <PagePlayers />
+    </Route>
     {/* <Route path="/player" exact component={ PagePlayer }/> */}
-    <Route path="/games" component={ PageGames }/>
-    <Route path="/achievements" component={ PageAchievements }/>
+    <Route path="/games">
+      <PageGames />
+    </Route>
+    <Route path="/achievements">
+      <PageAchievements />
+    </Route>
   </Switch>
 );
 
