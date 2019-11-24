@@ -1,0 +1,15 @@
+a:link, a:visited {
+  margin: 1rem;
+  color: #D0D0D0;
+  text-decoration: none;
+  transition: all 0.25s
+}
+
+a:hover, a:active {
+  background-color: #D0D0D0;
+  color: #0F0F0F;
+}
+
+hr {
+  margin: 0.5rem 2rem;
+}
