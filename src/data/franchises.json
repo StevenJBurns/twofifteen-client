@@ -1,0 +1,10 @@
+[
+  {"id": 0, "name": "New York Yankees"},
+  {"id": 1, "name": "New York Mets"},
+  {"id": 2, "name": "Toronto Blue Jay"},
+  {"id": 3, "name": "Boston Red Sox"},
+  {"id": 4, "name": "Los Angeles Dodgers"},
+  {"id": 5, "name": "San Francisco Giants"},
+  {"id": 6, "name": "Texas Rangers"},
+  {"id": 7, "name": "Colorado Rockies"}
+]
