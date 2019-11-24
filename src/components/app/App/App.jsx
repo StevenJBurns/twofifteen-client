@@ -11,7 +11,7 @@ import { PageSeasonList } from '../../pages/PageSeasonList/PageSeasonList';
 import { PageSeasonDetail } from '../../pages/PageSeasonDetail/PageSeasonDetail';
 // import { SeasonSelect } from '../../ui/SeasonsSelect/SeasonsSelect';
 import PageVenues from "../../pages/PageVenues";
-import PageFranchises from "../../pages/PageFranchises/PageFranchises";
+import { PageFranchises, PageFranchiseDetail } from "../../pages/PageFranchises";
 import PagePlayers from "../../pages/PagePlayers/PagePlayers";
 // import PagePlayer from "../../pages/PagePlayer";
 import PageGames from "../../pages/PageGames";
@@ -36,8 +36,11 @@ export const App = () => (
     <Route path="/venues">
       <PageVenues />
     </Route>
-    <Route path="/franchises">
+    <Route exact path="/franchises">
       <PageFranchises />
+    </Route>
+    <Route path="/franchises/:id">
+      <PageFranchiseDetail />
     </Route>
     <Route path="/people" exact>
       <PagePlayers />
