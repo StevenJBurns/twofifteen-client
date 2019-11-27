@@ -1,0 +1,109 @@
+[
+  {"id": 0, "name": "New York Yankees"},
+  {
+    "id": 1,
+    "name": "New York Mets",
+    "seasons": [
+      {
+        "id": 1962,
+        "league": "National",
+        "division": "East",
+        "record": {
+          "W": 40,
+          "L": 120,
+          "T": 0
+          }
+      },
+      {
+        "id": 1969,
+        "league": "National",
+        "division": "East",
+        "record": {
+          "W": 100,
+          "L": 62,
+          "T": 0
+        }
+      },
+      {
+        "id": 1973,
+        "league": "National",
+        "division": "East",
+        "record": {
+          "W": 82,
+          "L": 79,
+          "T": 0
+        }
+      },
+      {
+        "id": 1986,
+        "league": "National",
+        "division": "East",
+        "record": {
+        "W": 108,
+        "L": 54,
+        "T": 0
+        }
+      },
+      {
+        "id": 1999,
+        "league": "National",
+        "division": "East",
+        "record": {
+          "W": 97,
+          "L": 66,
+          "T": 0
+        }
+      },
+      {
+        "id": 2000,
+        "league": "National",
+        "division": "East",
+        "record": {
+          "W": 94,
+          "L": 68,
+          "T": 0
+        }
+      },
+      {
+        "id": 2006,
+        "league": "National",
+        "division": "East",
+        "record": {
+          "W": 97,
+          "L": 65,
+          "T": 0
+        }
+      },
+      {
+        "id": 2015,
+        "league": "National",
+        "division": "East",
+        "record": {
+          "W": 90,
+          "L": 72,
+          "T": 0
+        }
+      }
+    ]
+  },
+  {"id": 2, "name": "Toronto Blue Jays"},
+  {"id": 3, "name": "Boston Red Sox"},
+  {"id": 4, "name": "Los Angeles Dodgers"},
+  {"id": 5, "name": "San Francisco Giants"},
+  {"id": 6, "name": "Texas Rangers"},
+  {
+    "id": 7,
+    "name": "Colorado Rockies",
+    "seasons": [
+      {
+        "id": 2007,
+        "league": "National",
+        "division": "East",
+        "record": {
+        "W": 90,
+        "L": 73,
+        "T": 0
+      }}
+    ]
+  }
+]
