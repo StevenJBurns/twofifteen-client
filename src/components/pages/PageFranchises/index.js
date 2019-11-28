@@ -1,2 +1,2 @@
-export { PageFranchises } from './PageFranchises';
-export { PageFranchiseDetail } from './FranchiseDetails';
+export { PageFranchiseList } from './PageFranchiseList';
+export { PageFranchiseDetail } from './PageFranchiseDetails';
