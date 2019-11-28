@@ -13,7 +13,6 @@ export const NavSeasons = () => {
             (<Link key={season} className="season" to={`/seasons/${season}`}>{season}</Link>))
         }
       </nav>
-      <Link className="nav-season__home-link" to='/seasons'>HOME</Link>
     </>
   );
 };
