@@ -61,7 +61,6 @@ export const PageGamesList = () => {
   // const formattedDate = `${getDate()} - ${getMonth()} - ${getFullYear()}`;
   if (selectedDate) console.log('selectedDate: ', selectedDate);
   
-
   return (
     <Page>
       <MuiPickersUtilsProvider utils={MomentUtils}>
