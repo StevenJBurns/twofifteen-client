@@ -10,11 +10,11 @@ import { PageHome } from "../../pages/PageHome/PageHome";
 import { PageSeasonList } from '../../pages/PageSeasonList/PageSeasonList';
 import { PageSeasonDetail } from '../../pages/PageSeasonDetail/PageSeasonDetail';
 // import { SeasonSelect } from '../../ui/SeasonsSelect/SeasonsSelect';
-import PageVenues from "../../pages/PageVenues";
-import { PageFranchises, PageFranchiseDetail } from "../../pages/PageFranchises";
+import PageVenues from "../../pages/PageVenues/PageVenueList";
+import { PageFranchiseList, PageFranchiseDetail } from "../../pages/PageFranchises";
 import PagePlayers from "../../pages/PagePlayers/PagePlayers";
 // import PagePlayer from "../../pages/PagePlayer";
-import PageGames from "../../pages/PageGames";
+import { PageGamesList } from "../../pages/PageGames/PageGamesList";
 import PageAchievements from "../../pages/PageAchievements/PageAchievements";
 
 /* Stylesheets */
@@ -37,7 +37,7 @@ export const App = () => (
       <PageVenues />
     </Route>
     <Route exact path="/franchises">
-      <PageFranchises />
+      <PageFranchiseList />
     </Route>
     <Route path="/franchises/:id">
       <PageFranchiseDetail />
@@ -47,7 +47,7 @@ export const App = () => (
     </Route>
     {/* <Route path="/player" exact component={ PagePlayer }/> */}
     <Route path="/games">
-      <PageGames />
+      <PageGamesList />
     </Route>
     <Route path="/achievements">
       <PageAchievements />
