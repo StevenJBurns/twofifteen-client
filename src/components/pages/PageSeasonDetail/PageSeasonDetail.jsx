@@ -1,16 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { NavLink, useParams, useHistory } from 'react-router-dom';
+import { useParams, useHistory } from 'react-router-dom';
+import { Page } from '../Page/Page';
 import './PageSeasonDetail.scss';
 
 export const PageSeasonDetail = props => {
   const params = useParams();
   const history = useHistory();
-  console.log('props: ', props);
-  console.log('params: ', params);
   
   return (
-    <section className="page-season">
+    <Page>
       <h2 className="page-season__h1" onClick={() => history.goBack()}>
         &larr; {params.season}
       </h2>
@@ -19,7 +18,7 @@ export const PageSeasonDetail = props => {
       <h3>Attendance</h3>
       <h3>All Star Game</h3>
       <h3>Leaders</h3>
-    </section>
+    </Page>
   );
 };
 
