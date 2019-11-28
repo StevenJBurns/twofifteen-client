@@ -7,12 +7,65 @@
       {
         "id": 1962,
         "league": "National",
-        "division": "East",
         "record": {
           "W": 40,
           "L": 120,
           "T": 0
-          }
+        }
+      },
+      {
+        "id": 1963,
+        "league": "National",
+        "record": {
+          "W": 51,
+          "L": 111,
+          "T": 0
+        }
+      },
+      {
+        "id": 1964,
+        "league": "National",
+        "record": {
+          "W": 53,
+          "L": 109,
+          "T": 0
+        }
+      },
+      {
+        "id": 1965,
+        "league": "National",
+        "record": {
+          "W": 50,
+          "L": 112,
+          "T": 0
+        }
+      },
+      {
+        "id": 1966,
+        "league": "National",
+        "record": {
+          "W": 66,
+          "L": 95,
+          "T": 0
+        }
+      },
+      {
+        "id": 1967,
+        "league": "National",
+        "record": {
+          "W": 61,
+          "L": 101,
+          "T": 0
+        }
+      },
+      {
+        "id": 1968,
+        "league": "National",
+        "record": {
+          "W": 73,
+          "L": 89,
+          "T": 0
+        }
       },
       {
         "id": 1969,
@@ -21,6 +74,36 @@
         "record": {
           "W": 100,
           "L": 62,
+          "T": 0
+        }
+      },
+      {
+        "id": 1970,
+        "league": "National",
+        "division": "East",
+        "record": {
+          "W": 83,
+          "L": 79,
+          "T": 0
+        }
+      },
+      {
+        "id": 1971,
+        "league": "National",
+        "division": "East",
+        "record": {
+          "W": 83,
+          "L": 79,
+          "T": 0
+        }
+      },
+      {
+        "id": 1972,
+        "league": "National",
+        "division": "East",
+        "record": {
+          "W": 83,
+          "L": 73,
           "T": 0
         }
       },
@@ -45,6 +128,125 @@
         }
       },
       {
+        "id": 1987,
+        "league": "National",
+        "division": "East",
+        "record": {
+        "W": 92,
+        "L": 70,
+        "T": 0
+        }
+      },
+      {
+        "id": 1988,
+        "league": "National",
+        "division": "East",
+        "record": {
+        "W": 100,
+        "L": 60,
+        "T": 0
+        }
+      },      {
+        "id": 1989,
+        "league": "National",
+        "division": "East",
+        "record": {
+        "W": 87,
+        "L": 75,
+        "T": 0
+        }
+      },
+      {
+        "id": 1990,
+        "league": "National",
+        "division": "East",
+        "record": {
+        "W": 91,
+        "L": 71,
+        "T": 0
+        }
+      },
+      {
+        "id": 1991,
+        "league": "National",
+        "division": "East",
+        "record": {
+        "W": 77,
+        "L": 84,
+        "T": 0
+        }
+      },
+      {
+        "id": 1992,
+        "league": "National",
+        "division": "East",
+        "record": {
+        "W": 72,
+        "L": 90,
+        "T": 0
+        }
+      },
+      {
+        "id": 1993,
+        "league": "National",
+        "division": "East",
+        "record": {
+        "W": 59,
+        "L": 103,
+        "T": 0
+        }
+      },
+      {
+        "id": 1994,
+        "league": "National",
+        "division": "East",
+        "record": {
+        "W": 55,
+        "L": 58,
+        "T": 0
+        }
+      },
+      {
+        "id": 1995,
+        "league": "National",
+        "division": "East",
+        "record": {
+        "W": 69,
+        "L": 75,
+        "T": 0
+        }
+      },
+      {
+        "id": 1996,
+        "league": "National",
+        "division": "East",
+        "record": {
+        "W": 71,
+        "L": 91,
+        "T": 0
+        }
+      },
+      {
+        "id": 1997,
+        "league": "National",
+        "division": "East",
+        "record": {
+        "W": 88,
+        "L": 74,
+        "T": 0
+        }
+      },
+      {
+        "id": 1998,
+        "league": "National",
+        "division": "East",
+        "record": {
+        "W": 88,
+        "L": 74,
+        "T": 0
+        }
+      },
+      {
         "id": 1999,
         "league": "National",
         "division": "East",
@@ -65,6 +267,56 @@
         }
       },
       {
+        "id": 2001,
+        "league": "National",
+        "division": "East",
+        "record": {
+          "W": 82,
+          "L": 80,
+          "T": 0
+        }
+      },
+      {
+        "id": 2002,
+        "league": "National",
+        "division": "East",
+        "record": {
+          "W": 75,
+          "L": 86,
+          "T": 0
+        }
+      },
+      {
+        "id": 2003,
+        "league": "National",
+        "division": "East",
+        "record": {
+          "W": 66,
+          "L": 95,
+          "T": 0
+        }
+      },
+      {
+        "id": 2004,
+        "league": "National",
+        "division": "East",
+        "record": {
+          "W": 71,
+          "L": 91,
+          "T": 0
+        }
+      },
+      {
+        "id": 2005,
+        "league": "National",
+        "division": "East",
+        "record": {
+          "W": 83,
+          "L": 79,
+          "T": 0
+        }
+      },
+      {
         "id": 2006,
         "league": "National",
         "division": "East",
@@ -75,12 +327,132 @@
         }
       },
       {
+        "id": 2007,
+        "league": "National",
+        "division": "East",
+        "record": {
+          "W": 88,
+          "L": 74,
+          "T": 0
+        }
+      },
+      {
+        "id": 2008,
+        "league": "National",
+        "division": "East",
+        "record": {
+          "W": 89,
+          "L": 73,
+          "T": 0
+        }
+      },
+      {
+        "id": 2009,
+        "league": "National",
+        "division": "East",
+        "record": {
+          "W": 70,
+          "L": 92,
+          "T": 0
+        }
+      },
+      {
+        "id": 2010,
+        "league": "National",
+        "division": "East",
+        "record": {
+          "W": 79,
+          "L": 83,
+          "T": 0
+        }
+      },
+      {
+        "id": 2011,
+        "league": "National",
+        "division": "East",
+        "record": {
+          "W": 77,
+          "L": 85,
+          "T": 0
+        }
+      },
+      {
+        "id": 2012,
+        "league": "National",
+        "division": "East",
+        "record": {
+          "W": 74,
+          "L": 88,
+          "T": 0
+        }
+      },
+      {
+        "id": 2013,
+        "league": "National",
+        "division": "East",
+        "record": {
+          "W": 74,
+          "L": 88,
+          "T": 0
+        }
+      },
+      {
+        "id": 2014,
+        "league": "National",
+        "division": "East",
+        "record": {
+          "W": 79,
+          "L": 83,
+          "T": 0
+        }
+      },
+      {
         "id": 2015,
         "league": "National",
         "division": "East",
         "record": {
           "W": 90,
           "L": 72,
+          "T": 0
+        }
+      },
+      {
+        "id": 2016,
+        "league": "National",
+        "division": "East",
+        "record": {
+          "W": 97,
+          "L": 75,
+          "T": 0
+        }
+      },
+      {
+        "id": 2017,
+        "league": "National",
+        "division": "East",
+        "record": {
+          "W": 70,
+          "L": 92,
+          "T": 0
+        }
+      },
+      {
+        "id": 2018,
+        "league": "National",
+        "division": "East",
+        "record": {
+          "W": 77,
+          "L": 85,
+          "T": 0
+        }
+      },
+      {
+        "id": 2019,
+        "league": "National",
+        "division": "East",
+        "record": {
+          "W": 86,
+          "L": 76,
           "T": 0
         }
       }
