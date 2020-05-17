@@ -8,12 +8,13 @@ import './index.scss';
 
 ReactDOM.render(
   <Provider store={store}>
+    {/* PersistGate here... */}
+    {/* ThemeProvider here... */}
     <BrowserRouter>
       <App />
     </BrowserRouter>
+    {/* ThemeProvider here... */}
+    {/* PersistGate here... */}
   </Provider>,
   document.getElementById("react-root")
 );
-
-// import registerServiceWorker from './registerServiceWorker';
-// registerServiceWorker();
