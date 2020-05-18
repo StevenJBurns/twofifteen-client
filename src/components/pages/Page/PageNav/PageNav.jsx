@@ -17,7 +17,9 @@ export const PageNav = () => {
         <Link to="/seasons">SEASONS</Link>
         <Link to="/games">GAMES</Link>
         <Link to="/franchises">TEAMS</Link>
+        <Link to="/people">PEOPLE</Link>
         <Link to="/venues">VENUES</Link>
+        <Link to="/achievements">ACHIEVEMENTS</Link>
       </Box>
       <Divider className={classes.divider} />
     </nav>

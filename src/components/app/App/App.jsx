@@ -5,7 +5,8 @@ import { PageSeasonList } from '../../pages/PageSeasonList/PageSeasonList';
 import { PageSeasonDetail } from '../../pages/PageSeasonDetail/PageSeasonDetail';
 import { PageVenues } from "../../pages/PageVenues/PageVenueList";
 import { PageFranchiseList, PageFranchiseDetail } from "../../pages/PageFranchises";
-import { PagePlayers } from "../../pages/PagePlayers/PagePlayers";
+import { PeopleList } from "components/pages/PeopleList/PeopleList";
+import { PeopleDetail } from "components/pages/PeopleDetail/PeopleDetail";
 import { PageGamesList } from "../../pages/PageGames/PageGamesList";
 import { PageAchievements } from "../../pages/PageAchievements/PageAchievements";
 
@@ -18,7 +19,7 @@ export const App = () => {
       <Route exact path="/seasons">
         <PageSeasonList />
       </Route>
-      <Route exact path="/seasons/:season">
+      <Route exact path="/seasons/:year">
         <PageSeasonDetail />
       </Route>
       <Route exact path="/venues">
@@ -31,7 +32,10 @@ export const App = () => {
         <PageFranchiseDetail />
       </Route>
       <Route exact path="/people">
-        <PagePlayers />
+        <PeopleList />
+      </Route>
+      <Route exact path="/people/:id">
+        <PeopleDetail />
       </Route>
       <Route exact path="/games">
         <PageGamesList />
