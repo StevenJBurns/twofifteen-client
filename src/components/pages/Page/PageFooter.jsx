@@ -1,7 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/styles';
-import { flexbox } from '@material-ui/system';
 
 const useStyles = makeStyles({
   footer: {
@@ -9,10 +7,9 @@ const useStyles = makeStyles({
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
+    textAlign: 'center',
     minHeight: '8rem',
     color: "#D0D0D0",
-    backgroundColor: 'darkblue',
-    textAlign: 'center',
   },
   p: {
     margin: '1rem auto',
@@ -31,18 +28,16 @@ const useStyles = makeStyles({
 })
 
 export const PageFooter = () => {
-  const styles = useStyles();
+  const classes = useStyles();
   const year = new Date().getFullYear();
 
   return (
-    <footer className={styles.footer}>
-      <p className={styles.p}>The information used here was obtained free of charge from and is copyrighted by Retrosheet.  Interested parties may contact Retrosheet at&nbsp;
+    <footer className={classes.footer}>
+      <p className={classes.p}>The information used here was obtained free of charge from and is copyrighted by Retrosheet.  Interested parties may contact Retrosheet at&nbsp;
         <a href="www.retrosheet.org" style={{margin: 'inherit'}}>www.retrosheet.org</a>.
       </p>
-      <hr className={styles.hr}></hr>
-      <h4 className={styles.h4}>&copy; {year} &bull; Steven J Burns</h4>
+      <hr className={classes.hr}></hr>
+      <h4 className={classes.h4}>&copy; {year} &bull; Steven J Burns</h4>
     </footer>
   )
 };
-
-export default PageFooter;

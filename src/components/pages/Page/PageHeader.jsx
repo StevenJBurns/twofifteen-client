@@ -1,13 +1,18 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import { makeStyles } from '@material-ui/core';
 
-export const PageHeader = props => {
+const useStyles = makeStyles({
+  header: {
+    color:'#D0D0D0',
+  },
+});
+
+export const PageHeader = () => {
+  const classes = useStyles();
+
   return (
-    <header style={{ color:'#D0D0D0', textAlign: 'center'}}>
-      <h1>TWO-FIFTEEN</h1>
-      <hr />
+    <header className={classes.header}>
+      <h1>TWOFIFTEEN</h1>
     </header>
   );
 };
-
-export default PageHeader;

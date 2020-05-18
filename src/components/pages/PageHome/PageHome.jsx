@@ -1,27 +1,24 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import Box from '@material-ui/core/Box';
+import Container from '@material-ui/core/Container';
+import { makeStyles } from '@material-ui/core';
 import { AppNav } from '../../app/AppNav/AppNav';
-import './PageHome.scss';
+import { styles } from './Home.styles';
 
-export const PageHome = props => {
-  const [] = React.useState();
+const useStyles = makeStyles(styles);
+
+export const PageHome = () => {
+  const classes = useStyles();
 
   return (
-    <main id="page-home">
-      <div id="page-home__div-upper" />
-      <h1 id="page-home__h1">TWOFIFTEEN</h1>
-      <div id="page-home__div-lower" />
-      <h4 id="page-home__h4">An open source baseball database</h4>
-      <div id="page-home__nav">
+    <Container className={classes.page} maxWidth={false}>
+      <Box className={classes.upper}>
+        <h1>TWOFIFTEEN</h1>
+        <h4>An open source baseball database</h4>
+      </Box>
+      <Box className={classes.lower}>
         <AppNav />
-      </div>
-      {/* <div id="page-home__nav" /> */}
-    </main>
+      </Box>
+    </Container>
   );
 };
-
-PageHome.propTypes = {};
-
-PageHome.defaultProps = {};
-
-export default PageHome

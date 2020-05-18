@@ -1,14 +1,17 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import { makesStyles, makeStyles } from '@material-ui/styles';
+import Box from '@material-ui/core/Box';
+import Container from '@material-ui/core/Container';
+import { makeStyles } from '@material-ui/styles';
 import { PageHeader } from './PageHeader';
 import { PageFooter } from './PageFooter';
-import { PageNav } from './PageNav';
+import { PageNav } from './PageNav/PageNav';
 
 const useStyles = makeStyles({
-  root: {
-    color: 'white',
-    flex: '1 0 auto',
+  page: {
+    display: 'flex',
+    flexDirection: 'column',
+    minHeight: '100vh',
+    color: '#909090',
   },
 });
 
@@ -16,15 +19,13 @@ export const Page = props => {
   const styles = useStyles();
 
   return (
-    <>
+    <Container className={styles.page} maxWidth="lg">
       <PageHeader />
       <PageNav />
-      <main className={styles.root}>
+      <Box flex='1 0 auto' py={2}>
         { props.children }
-      </main>
+      </Box>
       <PageFooter />
-    </>
+    </Container>
   );
 };
-
-export default Page;

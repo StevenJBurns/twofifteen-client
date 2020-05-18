@@ -5,16 +5,10 @@
   align-items: center;
   color: #F0F0F0;
   min-height: 8rem;
-  background-color: #151B54;
   padding: 2rem 4rem
 }
   
-#app-footer__p {
-  display: inline-block;
-  margin: 4rem auto;
-}
-
-#app-footer__h4 {
+#app-footer * {
   display: inline-block;
   margin: 4rem auto;
 }
