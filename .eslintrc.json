@@ -3,8 +3,9 @@
     "browser": true,
     "es6": true
   },
+  "plugins": ["react"],
   "extends": [
-    "eslint:recommended",
+    "airbnb",
     "plugin:react/recommended"
   ],
   "globals": {
@@ -18,7 +19,13 @@
       "jsx": true
     }
   },
-  "plugins": ["react"],
   "rules": {
+    "import/first": "off",
+    "import/new-line-after-import": "off"
+  },
+  "settings": {
+    "import/resolver": {
+      "node": { "paths": ["src"] }
+    }
   }
 }
