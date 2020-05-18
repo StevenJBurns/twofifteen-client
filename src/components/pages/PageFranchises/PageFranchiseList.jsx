@@ -1,5 +1,4 @@
 import React from 'react';
-import { PropTypes } from 'prop-types';
 import { Link } from 'react-router-dom';
 import { Page } from '../Page/Page';
 import franchiseData from '../../../data/franchiseData.json';
@@ -33,6 +32,4 @@ export const PageFranchiseList = props => {
       </div>
     </Page>
   );
-}
-
-export default PageFranchiseList;
+};

@@ -1,10 +1,8 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/styles';
 import MomentUtils from '@date-io/moment';
 import { DatePicker, MuiPickersUtilsProvider } from '@material-ui/pickers';
-import Page from '../Page/Page';
-import { classes } from 'istanbul-lib-coverage';
+import { Page } from '../Page/Page';
 
 const useStyles = makeStyles({
   root: {
@@ -38,7 +36,7 @@ const useStyles = makeStyles({
 })
 
 export const PageGamesList = () => {
-  const styles = useStyles();
+  const classes = useStyles();
 
   const [selectedDate, setSelectedDate] = React.useState(new Date());
 
@@ -56,9 +54,6 @@ export const PageGamesList = () => {
     onChange: date => setSelectedDate(date._d),
   };
 
-  // React.useEffect(() => console.log(selectedDate), [selectedDate]);
-
-  // const formattedDate = `${getDate()} - ${getMonth()} - ${getFullYear()}`;
   if (selectedDate) console.log('selectedDate: ', selectedDate);
   
   return (

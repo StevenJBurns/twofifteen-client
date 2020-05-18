@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { Page } from '../Page/Page';
 
 // import Background from '../images/ballparks.jpg';
@@ -53,6 +52,4 @@ export const PageVenues = () => {
       <div className="div-venues-content"></div>
     </Page>
   );
-}
-
-export default PageVenues;
+};

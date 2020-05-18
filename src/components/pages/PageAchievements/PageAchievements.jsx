@@ -2,12 +2,6 @@ import React from 'react';
 import './PageAchievements.css';
 
 export const PageAchievements = props => {
-  const [] = React.useState();
-  // constructor(props) {
-  //   super(props);
-  //   this.state = {};
-  // }
-
   return (
     <main>
       <div>
@@ -19,5 +13,3 @@ export const PageAchievements = props => {
     </main>
   );
 };
-
-export default PageAchievements

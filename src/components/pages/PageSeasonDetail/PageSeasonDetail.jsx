@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { useParams, useHistory } from 'react-router-dom';
 import { Page } from '../Page/Page';
 import './PageSeasonDetail.scss';
@@ -21,5 +20,3 @@ export const PageSeasonDetail = props => {
     </Page>
   );
 };
-
-export default PageSeasonDetail;

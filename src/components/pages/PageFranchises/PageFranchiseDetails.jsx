@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { useParams } from 'react-router-dom';
 import { Page } from '../Page/Page';
 import { FranchiseSeasonList } from './FranchiseSeasonList'

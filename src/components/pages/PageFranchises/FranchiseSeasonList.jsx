@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { withStyles, makeStyles } from '@material-ui/core/styles';
 import { Paper, Table, TableHead, TableBody, TableRow, TableCell } from '@material-ui/core';
 import { FranchisdeSeasonChart } from './FranchiseSeasonChart';
@@ -70,5 +69,3 @@ export const FranchiseSeasonList = ({ seasons }) => {
     </Paper>
   ) : null;
 };
-
-export default FranchiseSeasonList
