@@ -1,0 +1,33 @@
+[
+  {
+    "id": "0001",
+    "name": "Fenway Park",
+    "location": "Boston, MA, USA",
+    "history": {
+      "2019": {
+        "name" : "Fenway Park",
+        "teams": ["0003"]
+      },
+      "2018": {
+        "name" : "Fenway Park",
+        "teams": ["0003"]
+      },
+      "2017": {
+        "name" : "Fenway Park",
+        "teams": ["0003"]
+      }
+    }
+  },
+  { "id": "0002", "name": "Wrigley Field", "location": "Chicago, IL, USA"},
+  { "id": "0006", "name": "Dodger Stadium", "location": "Los Angeles, CA, USA"},
+  { "id": "0003", "name": "Coors Field", "location": "Denver, CO, USA"},
+  { "id": "0004", "name": "Yankee Stadium", "location": "The Bronx, NY, USA"},
+  { "id": "0005", "name": "Citi Field", "location": "Queens, NY, USA"},
+  { "id": "0007", "name": "Chase Field", "location": "Phoenix, AZ, USA" },
+  { "id": "0008", "name": "Shea Stadium", "location": "Queens, NY, USA" },
+  { "id": "0009", "location": "Arlington, TX, USA" },
+  { "id": "0010", "name": "Ameriquest Field in Arlington", "location": "Arlington, TX, USA" },
+  { "id": "0011", "name": "Rangers Ballpark in Arlington", "location": "Arlington, TX, USA" },
+  { "id": "0012", "name": "Globe Life Park in Arlington", "location": "Arlington, TX, USA" },
+  { "id": "0013", "name": "Arlington Stadium", "location": "Arlington, TX, USA" }
+]
