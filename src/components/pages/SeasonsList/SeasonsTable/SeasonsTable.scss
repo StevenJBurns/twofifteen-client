@@ -1,0 +1,38 @@
+.nav-season {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center
+}
+
+.season:link,
+.season:visited {
+  width: 4rem;
+  margin: 0.25rem;
+  color: #0F0F0F;
+  border: 0.25rem solid transparent;
+  background-color: #909090;
+  transition: background-color 0.25s;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block
+}
+
+.season:hover,
+.season:active {
+  background-color: #F0F0F0
+}
+
+.nav-season__home-link {
+  width: 8rem;
+  margin: 2rem auto;
+  color: #0F0F0F;
+  background-color: lightblue;
+  transition: background-color 0.25s;
+  text-decoration: none;
+  text-align: center
+}
+
+.nav-season__home-link:hover {
+  background-color: blue;
+}

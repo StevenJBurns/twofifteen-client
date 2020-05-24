@@ -1,5 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/styles';
+import Divider from '@material-ui/core/Divider';
 
 const useStyles = makeStyles({
   footer: {
@@ -21,9 +22,9 @@ const useStyles = makeStyles({
     display: 'inline-block',
     margin: '1rem auto',
   },
-  hr : {
+  divider : {
     width: '100%',
-    minWidth: 280,
+    backgroundColor: '#909090',
   },
 })
 
@@ -33,10 +34,10 @@ export const PageFooter = () => {
 
   return (
     <footer className={classes.footer}>
+      <Divider className={classes.divider} />
       <p className={classes.p}>The information used here was obtained free of charge from and is copyrighted by Retrosheet.  Interested parties may contact Retrosheet at&nbsp;
         <a href="www.retrosheet.org" style={{margin: 'inherit'}}>www.retrosheet.org</a>.
       </p>
-      <hr className={classes.hr}></hr>
       <h4 className={classes.h4}>&copy; {year} &bull; Steven J Burns</h4>
     </footer>
   )

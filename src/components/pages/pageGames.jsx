@@ -1,8 +1,6 @@
 import React from 'react';
 
-
 class PageGames extends React.Component {
-  
   constructor(props) {
     super(props);
     this.state = {};

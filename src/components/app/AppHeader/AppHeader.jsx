@@ -1,6 +1,6 @@
 import React from 'react';
 import BaseballLogoSVG from '../../../assets/images/baseball.svg';
-import { OnThisDay } from "../../ui/OnThisDay.jsx";
+import { OnThisDay } from "../../common/OnThisDay.jsx.js";
 import "./AppHeader.scss";
 
 

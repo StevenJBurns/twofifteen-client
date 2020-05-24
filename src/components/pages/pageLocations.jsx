@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class PageLocations extends Component {
+class PageLocations extends React.Component {
   
   constructor(props) {
     super(props);
@@ -11,7 +11,7 @@ class PageLocations extends Component {
     fetch('http://twofifteen-api.azurewebsites.net/location' , { mode : "cors" })
       .then(res => res.json())
       .then(json => this.setState({ locations : json }))
-      .then( () => console.log(this.state.locations))
+      .then(() => console.log(this.state.locations))
       .catch(error => console.log(error))
   }
 

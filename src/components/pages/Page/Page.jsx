@@ -22,7 +22,7 @@ export const Page = props => {
     <Container className={styles.page} maxWidth="lg">
       <PageHeader />
       <PageNav />
-      <Box flex='1 0 auto' py={2}>
+      <Box flex='1 0 auto' display="flex" flexDirection="column" py={2}>
         { props.children }
       </Box>
       <PageFooter />

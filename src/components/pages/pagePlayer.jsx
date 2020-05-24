@@ -1,11 +1,8 @@
 import React from 'react';
 
-
 class PagePlayer extends React.Component {
-
   constructor(props) {
     super(props);
-    
     this.state = {};
   }
 
@@ -17,7 +14,7 @@ class PagePlayer extends React.Component {
         </div>
       </main>
     );
-  }
-}
+  };
+};
 
 export default PagePlayer;

@@ -1,14 +1,15 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import { PageHome } from "components/pages/PageHome/PageHome";
-import { PageSeasonList } from '../../pages/PageSeasonList/PageSeasonList';
-import { PageSeasonDetail } from '../../pages/PageSeasonDetail/PageSeasonDetail';
-import { PageVenues } from "../../pages/PageVenues/PageVenueList";
-import { PageFranchiseList, PageFranchiseDetail } from "../../pages/PageFranchises";
+import { PageHome } from "components/pages/Home/PageHome";
+import { SeasonsList } from '../../pages/SeasonsList/SeasonList';
+import { SeasonsDetail } from '../../pages/SeasonsDetail/SeasonsDetail';
+import { PageVenues } from "../../pages/VenuesList/PageVenueList";
+import { PageFranchiseList, PageFranchiseDetail } from "../../pages/FranchisesList";
 import { PeopleList } from "components/pages/PeopleList/PeopleList";
 import { PeopleDetail } from "components/pages/PeopleDetail/PeopleDetail";
-import { PageGamesList } from "../../pages/PageGames/PageGamesList";
-import { PageAchievements } from "../../pages/PageAchievements/PageAchievements";
+import { PageGamesList } from "../../pages/GamesList/PageGamesList";
+import { AchievementsList } from "components/pages/AchievementsList/AchievementsList";
+import { LocationsList } from 'components/pages/LocationsList/LocationsList';
 
 export const App = () => {
   return (
@@ -17,10 +18,10 @@ export const App = () => {
         <PageHome />
       </Route>
       <Route exact path="/seasons">
-        <PageSeasonList />
+        <SeasonsList />
       </Route>
       <Route exact path="/seasons/:year">
-        <PageSeasonDetail />
+        <SeasonsDetail />
       </Route>
       <Route exact path="/venues">
         <PageVenues />
@@ -41,7 +42,13 @@ export const App = () => {
         <PageGamesList />
       </Route>
       <Route exact path="/achievements">
-        <PageAchievements />
+        <AchievementsList />
+      </Route>
+      <Route exact path="/games">
+        <PageGamesList />
+      </Route>
+      <Route exact path="/locations">
+        <LocationsList />
       </Route>
     </Switch>
   );
