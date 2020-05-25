@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core';
 import Divider from '@material-ui/core/Divider';
 import Box from '@material-ui/core/Box';
