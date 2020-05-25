@@ -10,6 +10,7 @@ import { PeopleDetail } from "components/pages/PeopleDetail/PeopleDetail";
 import { PageGamesList } from "../../pages/GamesList/PageGamesList";
 import { AchievementsList } from "components/pages/AchievementsList/AchievementsList";
 import { LocationsList } from 'components/pages/LocationsList/LocationsList';
+import { Page404 } from 'components/pages/Page404/Page404';
 
 export const App = () => {
   return (
@@ -49,6 +50,9 @@ export const App = () => {
       </Route>
       <Route exact path="/locations">
         <LocationsList />
+      </Route>
+      <Route>
+        <Page404 />
       </Route>
     </Switch>
   );
