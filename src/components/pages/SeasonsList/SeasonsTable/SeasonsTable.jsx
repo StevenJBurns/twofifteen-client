@@ -1,6 +1,9 @@
 import React from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { Box, GridList, GridListTile, makeStyles } from '@material-ui/core/';
+import { getAllSeasonThunk as getAllSeasons} from 'state/actions/seasons/getAllSeasons';
+import { selectAllSeasons } from 'state/selectors/selectSeasons';
 import SeasonData from 'data/seasons/seasons';
 import './SeasonsTable.scss';
 
@@ -30,6 +33,9 @@ const useStyles = makeStyles({
 
 export const SeasonsTable = () => {
   const classes = useStyles();
+  const dispatch = useDispatch();
+
+  const years = useSelector(selectAllSeasons);
   const seasons = SeasonData.map(season => season.year).sort((a, b) => a - b);
   const decades = {};
 
@@ -40,6 +46,12 @@ export const SeasonsTable = () => {
     if (!Object.keys(decades).includes(decade)) decades[decade] = [];
     decades[decade].push(season);
   });
+
+  React.useEffect(() => {console.log(years);
+    if (!years.list.length) dispatch(getAllSeasons());
+
+    
+  }, [dispatch, years.list.length]);
 
   return (
     <Box display="flex" justifyContent="center">

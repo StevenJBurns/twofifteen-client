@@ -1,3 +1,6 @@
 import { createSelector } from 'reselect';
 
-export const selectAllSeasons = createSelector([state.seasons.list], seasons => seasons);
+export const selectAllSeasons = createSelector(
+  [state => state.seasons],
+  seasons => seasons
+);

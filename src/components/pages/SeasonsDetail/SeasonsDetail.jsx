@@ -1,22 +1,35 @@
 import React from 'react';
-import { useParams, useHistory } from 'react-router-dom';
+import { useDispatch, useSelector } from 'react-redux';
+import { Box, CircularProgress} from '@material-ui/core';
 import { Page } from '../Page/Page';
+import { SeasonDetailHeader } from './SeasonDetailHeader/SeasonDetailHeader'
+import { getAllSeasonThunk as getAllSeasons} from 'state/actions/seasons/getAllSeasons';
+import { selectAllSeasons } from 'state/selectors/selectSeasons';
 import './SeasonsDetail.scss';
 
-export const SeasonsDetail = props => {
-  const params = useParams();
-  const history = useHistory();
-  
+export const SeasonsDetail = () => {
+  const dispatch = useDispatch();
+  const seasons = useSelector(selectAllSeasons);
+
+  const years = seasons.list.map(season => season.year);
+  const firstSeason = Math.min(...years);
+  const lastSeason = Math.max(...years);
+
+  React.useEffect(() => {
+    if (!seasons.list.length) dispatch(getAllSeasons());
+  }, [dispatch, seasons.list.length]);
+
+  if (seasons.isPending || !years.length) return (
+    <Page>
+      <Box flexGrow="1" display="flex" flexDirection="column" justifyContent="center" alignItems="center">
+        <CircularProgress size={128} />
+      </Box>
+    </Page>
+  );
+
   return (
     <Page>
-      <h2 className="page-season__h1" onClick={() => history.goBack()}>
-        &larr; {params.season}
-      </h2>
-      <hr className="page-season__hr"></hr>
-      <h3>World Series</h3>
-      <h3>Attendance</h3>
-      <h3>All Star Game</h3>
-      <h3>Leaders</h3>
+      <SeasonDetailHeader firstSeason={firstSeason} lastSeason={lastSeason} />
     </Page>
   );
 };
