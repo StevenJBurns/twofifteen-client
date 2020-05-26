@@ -47,10 +47,8 @@ export const SeasonsTable = () => {
     decades[decade].push(season);
   });
 
-  React.useEffect(() => {console.log(years);
+  React.useEffect(() => {
     if (!years.list.length) dispatch(getAllSeasons());
-
-    
   }, [dispatch, years.list.length]);
 
   return (

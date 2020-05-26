@@ -19,13 +19,15 @@ export const SeasonsDetail = () => {
     if (!seasons.list.length) dispatch(getAllSeasons());
   }, [dispatch, seasons.list.length]);
 
-  if (seasons.isPending || !years.length) return (
+  if (seasons.isPending) return (
     <Page>
       <Box flexGrow="1" display="flex" flexDirection="column" justifyContent="center" alignItems="center">
         <CircularProgress size={128} />
       </Box>
     </Page>
   );
+
+  if (!seasons.list.length) return null;
 
   return (
     <Page>
