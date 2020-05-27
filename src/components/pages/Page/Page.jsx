@@ -1,6 +1,6 @@
 import React from 'react';
 import Box from '@material-ui/core/Box';
-import Container from '@material-ui/core/Container';
+import { Container, Hidden, Divider } from '@material-ui/core';
 import { makeStyles } from '@material-ui/styles';
 import { PageHeader } from './PageHeader';
 import { PageFooter } from './PageFooter';
@@ -13,15 +13,23 @@ const useStyles = makeStyles({
     minHeight: '100vh',
     color: '#909090',
   },
+  divider: {
+    backgroundColor: '#909090',
+  },
 });
 
 export const Page = props => {
-  const styles = useStyles();
+  const classes = useStyles();
 
   return (
-    <Container className={styles.page} maxWidth="lg">
+    <Container className={classes.page} maxWidth="lg">
       <PageHeader />
-      <PageNav />
+      <Hidden smDown>
+        <PageNav />
+      </Hidden>
+      <Hidden mdUp>
+        <Divider className={classes.divider} />
+      </Hidden>
       <Box flex='1 0 auto' display="flex" flexDirection="column" py={2}>
         { props.children }
       </Box>

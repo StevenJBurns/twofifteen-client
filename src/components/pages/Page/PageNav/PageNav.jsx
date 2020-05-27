@@ -6,6 +6,7 @@ import Box from '@material-ui/core/Box';
 import { styles } from './PageNav.styles';
 
 const useStyles = makeStyles(styles);
+/* style for React Router selected Links*/
 const activeStyle = { color: '#DDDD00' };
 
 export const PageNav = () => {
