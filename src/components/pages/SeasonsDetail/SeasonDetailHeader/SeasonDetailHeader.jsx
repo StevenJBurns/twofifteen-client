@@ -12,25 +12,27 @@ export const SeasonDetailHeader = props => {
   const isNextSeasonDisabled = +year === props.lastSeason;
 
   return (
-    <Box display='flex' justifyContent="center" alignItems="center" my={2} color="#D0D0D0">
+    <Box display='flex' justifyContent="space-between" alignItems="center" mx="auto" my={2} color="#D0D0D0">
       <Button
-        color="inherit"
+        className={classes.button}
         component={Link}
         to={`/seasons/${+year - 1}`}
         startIcon={<DoubleArrowOutlinedIcon style={{ transform: 'rotate(-180deg)'}} />}
         disabled={isPrevSeasonDisabled}
         variant="outlined"
+        color="inherit"
         >
         { isPrevSeasonDisabled ? '' : +year - 1}
       </Button>
-      <h1 className={classes.year}>{year}</h1>
+      <h2 className={classes.year}>{year}</h2>
       <Button
-        color="inherit"
+        className={classes.button}
         component={Link}
         to={`/seasons/${+year + 1}`}
         endIcon={<DoubleArrowOutlinedIcon />}
         disabled={isNextSeasonDisabled}
         variant="outlined"
+        color="inherit"
         >
         { isNextSeasonDisabled ? '' : +year + 1}
       </Button>
